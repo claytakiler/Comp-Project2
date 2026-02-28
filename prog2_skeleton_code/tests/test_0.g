@@ -1,0 +1,1 @@
+typedef  	int	T;fun  	int lSXLS9s		 	 		(){	break;return	""*"";while(zI9->I)while("I")break;}

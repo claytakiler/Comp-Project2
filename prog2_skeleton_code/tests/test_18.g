@@ -1,0 +1,1 @@
+typedef		 int	 T;fun	 	T  k ()while(0X9C4030&"\xD\\")if("K"<0)if(Lt2){ 	 }			else {	 }

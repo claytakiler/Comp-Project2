@@ -1,0 +1,1 @@
+typedef int	T;var				 	 	 string v8 =""(0)->("");

@@ -1,0 +1,1 @@
+typedef	 	  		int  T;struct 	Jx{ 			void*[][] f;}

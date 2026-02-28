@@ -1,0 +1,1 @@
+typedef int			 	T;fun		void w	( void l){	}

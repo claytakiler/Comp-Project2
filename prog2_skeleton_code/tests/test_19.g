@@ -1,0 +1,1 @@
+typedef	int	T;union	  	hH{  T* M4;}fun 	 void  qZ2 (	T 		w4)if("B"<0())while(0||0)break;

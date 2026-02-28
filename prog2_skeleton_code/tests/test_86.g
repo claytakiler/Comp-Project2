@@ -1,0 +1,1 @@
+typedef		 int	T;var 		  void	x ={(""),J4||W};var 	const		int****[""&&""][""+""] l  ;

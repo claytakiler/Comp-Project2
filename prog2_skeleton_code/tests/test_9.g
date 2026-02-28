@@ -1,0 +1,1 @@
+typedef	int    T;fun		 string	 U		(	int R)if(+"xX"||r2)return		 {""};

@@ -1,0 +1,1 @@
+typedef  int				T;fun  void C	( 	string*[""][""] O, 	 string[][]	 hO,	void*	E){ 	if(Fp|o)return ""; else	return "";break;}fun  string 	aT	 			()if((E414)+w|p8){ break;while(""){	 		}}	 	else return	""[""];var 		 		string[]   Lcl5  ;

@@ -1,0 +1,1 @@
+typedef 	 int  T;struct	m{ void*****   X;}var	const 				T**[""|""][""<""] cktp ;

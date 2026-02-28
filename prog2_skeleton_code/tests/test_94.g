@@ -1,0 +1,1 @@
+typedef  		int T;fun		int[][][]		gN ()break;fun						T[] 	g 	(	int*****  ji){fun  	string		 z	()("");	}var const   string			A ;var		  	 		   int	G1	 	   		;var const	  string    hJ			 ={0,""[""],{"","A"}};union 	e8{	void x6;	int[""*""] 	   e;}

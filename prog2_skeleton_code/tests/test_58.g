@@ -1,0 +1,1 @@
+typedef 		 int	  T;var	const  	int		zg		;

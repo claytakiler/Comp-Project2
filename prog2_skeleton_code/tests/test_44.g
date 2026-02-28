@@ -1,0 +1,1 @@
+typedef	int	T;struct	o{ T F;}var 	 		   	  	 	T[]	 Y	 ;union Oe2{	 int X;}

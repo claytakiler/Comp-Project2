@@ -1,0 +1,1 @@
+typedef int		T;fun		  void 	 KV3   		()""&&"\v"*""[""];fun	  	 	string V 		()return 	""|""[""|""];fun	   						void	O ( string[""][""][""] Z, void 	f,	 	 	string	g8N, 	 	T 	  	   W)if("z\\\r"|"".0&&Dk)return G58;

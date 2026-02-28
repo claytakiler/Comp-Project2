@@ -1,0 +1,1 @@
+typedef 		 	int	T;fun    	int  	o8					()return "\53\76";

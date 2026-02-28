@@ -1,0 +1,1 @@
+typedef int			T;var	    		 int te3zn	 ;

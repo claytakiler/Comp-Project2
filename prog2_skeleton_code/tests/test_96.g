@@ -1,0 +1,1 @@
+typedef int	  T;var	const  	void 		S		=YDCf&&aH+y1W="";fun	 string bl	(	 	void i)break;var 	 	T f	="aMZ\'\r\b"&D=""("");union	 c{ string N;	void[""("")][""+""] jJ; string	ATi;}

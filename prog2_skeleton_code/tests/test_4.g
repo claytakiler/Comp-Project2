@@ -1,0 +1,1 @@
+typedef	 	 int T;fun  	  int	IY6n	  	()while("J\t"[u][I][0][0]["O"][y5xw][0][J4]|0+0)if("B"<f)if(0){	} else	{ }fun	 	 void f	 	 (	T[] 	H5)while(y()&&e55())while(X581+"M")while(""){				}union	b{ int	 q75; 	 int****[""||""][""|""][("")][""+""]	z;}struct A{	string	v20D;}

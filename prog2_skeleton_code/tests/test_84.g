@@ -1,0 +1,1 @@
+typedef		int	  	T;union 	e{	 		  	T**	acd; string	U5E; 	void[""|""][""()] 	H6CO18a;}var const	  	   int	 Q ;fun	 	T*   l	()if(N[0]<0="")"\\"&&"";struct   	Fp{	int*[]	M54aE; T[] llw2;   int**  L9;}var					const  		string	 R		;union	f{			void****[""+""][("")][""*""][""&&""][""->""]	  O; 	void 	x;}

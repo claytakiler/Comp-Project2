@@ -1,0 +1,1 @@
+typedef int  T;union e{ 	string	q8; void B; 	  int yL;}union S{ T* 	 	  O;}fun	 		T[""&""][""&""][""||""]["P\xa"][""&""]	 		  	 y  (){var 					int t 	;var		const			 	string		Q2iqrfX  =""&""; return	  ""->"";if("")break;if(""["\""]["h\f"])while(QR)break;"".0;{union	 r{	void	d;}  }{union	 R2U{  string	e;}  }"k";}

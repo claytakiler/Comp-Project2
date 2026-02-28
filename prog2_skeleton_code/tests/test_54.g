@@ -1,0 +1,1 @@
+typedef  int 	T;fun 	 	  		T	DpE0	  ( void		Qa4s,		string  N)if(("\f"))break;fun			 int Zy  (	int qn,		T[""][""][""]	mX, 	 int	 	b6,	 	string   k4N, 		 	void[""]  	W,  int	GN5, string 	IhV,		int[""][""]	 	oT5f,	int	x)(h*"");

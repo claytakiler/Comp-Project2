@@ -1,0 +1,1 @@
+typedef 		int T;var	 	  int  	d25K829		 ={V=""};fun			 int	L	 ( string* 	 d4,	void** j7){	}var const 	 T l		 		=!0->"";var  		 	 T[][]	KMfJ 	 ={""<"",{""}};var	  		 T Q5l	={"",gUz5,{""},K4+"Z\t"};

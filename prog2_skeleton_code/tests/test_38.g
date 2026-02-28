@@ -1,0 +1,1 @@
+typedef	int	 			T;var 	const 	void	tO		;union			n{ 	void*[][][][]  BN;		 string K; string*		DY;}

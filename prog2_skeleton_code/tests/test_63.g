@@ -1,0 +1,1 @@
+typedef 	int	T;fun  void**[c][""+""] K1	()if(*Qdxf2)return	{""};var const	 T[""[""]]	p  	  ;union   	   U2t{	 int*	  	em0;	void  S;}

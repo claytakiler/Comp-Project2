@@ -1,0 +1,1 @@
+typedef	int		T;fun 	   void	 	 x (	void V86,	void	M)while(o&bv31I||""||0)if(""||"")"XND";

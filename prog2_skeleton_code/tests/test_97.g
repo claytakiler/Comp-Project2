@@ -1,0 +1,1 @@
+typedef	int T;struct j{ 	int***[][][]  ugN3;}struct	Y0{ int[""+""] e;}

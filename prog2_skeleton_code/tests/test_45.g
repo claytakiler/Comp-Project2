@@ -1,0 +1,1 @@
+typedef int T;var const  T[][][]  aJ0  ={""&"",{"","\'"}};

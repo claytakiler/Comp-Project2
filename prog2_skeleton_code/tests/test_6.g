@@ -1,0 +1,1 @@
+typedef int	 T;var		  	T[""&&""]	m45 =(D());

@@ -1,0 +1,1 @@
+typedef	int	T;struct 	 sm{	 string					 u2n;	 string		l; int S;}struct	U9{		 T M;}

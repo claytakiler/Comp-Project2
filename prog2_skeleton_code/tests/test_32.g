@@ -1,0 +1,1 @@
+typedef   int  T;fun 			string****[][][]	K	( string 	O3TD)0||w55.W96&&"";var						string		e3	 	  ;var const 			 	T t6			 ="\xE\10z\26\x3";

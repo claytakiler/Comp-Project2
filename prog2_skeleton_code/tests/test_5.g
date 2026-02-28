@@ -1,0 +1,1 @@
+typedef int	T;fun		 void	  q  	( int  G)"\x6";var 	 	 T*[""()]["".""][""()] oI06h 	={{W2}};struct cbg{  T	k; void	 	tC;}fun	 string  		n	 (	 string Ch){struct fn{ 	void	o3F; T y2;} }

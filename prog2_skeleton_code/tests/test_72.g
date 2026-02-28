@@ -1,0 +1,1 @@
+typedef int  T;fun		void[""("","","","","","","")] 		u		 ()if(0)H|""; 		else while((tc7))if("\nY")break; else	 	 	 {	}

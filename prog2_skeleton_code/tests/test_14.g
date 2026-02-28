@@ -1,0 +1,1 @@
+typedef	int 	 T;struct	p{ int* R;}union D{	void 	iz1;	 string***[] N0;	T	T;}var	  	 void I 	;fun   T	fv		()while(!""(""(),"\076",C1HgW))while(Y)if(f){	  } else {  }

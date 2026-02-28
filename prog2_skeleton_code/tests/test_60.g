@@ -1,0 +1,1 @@
+typedef int	T;struct  u{	int	U;}fun	 		 int***[][][]	o	()return ""*""+""."";

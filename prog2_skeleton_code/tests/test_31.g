@@ -1,0 +1,1 @@
+typedef int	T;fun  		 void p	()while(""[L4Zp]<I8TS="")if(*"")if(0){	}	else 	break;	else return		 "";var	const		 	T		y	 	   ;

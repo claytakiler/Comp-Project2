@@ -1,0 +1,1 @@
+typedef	int 			T;union	n{ 	int	r;	void  X;	int 	 	  	bX0t;}fun	   	 		 	string		z   (		int 	k, 	int[]	wP, void		n, 	 	T	 Wx)break;struct	b{		 string Q;}

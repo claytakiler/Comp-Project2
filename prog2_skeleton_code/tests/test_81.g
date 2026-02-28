@@ -1,0 +1,1 @@
+typedef	int T;struct	 F6{			int	 h;}

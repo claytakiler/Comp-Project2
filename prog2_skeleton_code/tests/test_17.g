@@ -1,0 +1,1 @@
+typedef	 int		T;fun		string[""&""][!""]	eGx ( T[][]	d3, int	L)if(s2()(i4,""))while(0[V8en61])0;  else	{ }struct a{ T*[""<""]	 	 wCMS5; 	string  T;}

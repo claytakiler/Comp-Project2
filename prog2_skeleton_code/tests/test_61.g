@@ -1,0 +1,1 @@
+typedef	int 	T;fun 		void	O  ()"n"*0&t4S|"\'";

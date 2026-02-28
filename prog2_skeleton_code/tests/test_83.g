@@ -1,0 +1,1 @@
+typedef	int	  T;fun 	 	int y 	(){var 		  	T* bQu 	=q01;var	 	 	T		 	zt	; 	 }

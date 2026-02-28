@@ -1,0 +1,1 @@
+typedef  int			   T;var 	const	  T	 Mow	;var const  	T h3 	={{"j"}};fun				  		  int***		 L 	()J->E*"".0;struct MW{ void	  L;}fun 		 string		 b6 (){	}var 		 	  	string Nx	;

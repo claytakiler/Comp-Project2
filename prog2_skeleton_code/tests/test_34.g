@@ -1,0 +1,1 @@
+typedef 		 	      int	 T;var	  const   int S   =75;fun    	void					m2Ldl (	void	 Yu)if(((r2W)))"".E3;			else	return  ""*"";union		 	nW{	string npu1lS;     	   int[""&""][t][""->""][&""][""<""]["n"] L;}

@@ -1,0 +1,1 @@
+typedef	int  T;var const 	int* 	B 			   ={0,{""},0()};struct f{	string		w43238;}var  			void  	 H	 			 	=""&&0*(0);struct	b3{ 	 	int**[][]	J;}

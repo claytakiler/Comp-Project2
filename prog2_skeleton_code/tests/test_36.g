@@ -1,0 +1,1 @@
+typedef		int T;fun  			  string r			(	int			j,	  string c)return 7;fun	 	 T[][][] 			U8	()if("\b"||0->""[0])while(C9="")"";struct	u{   T H;  int*	c;		int*	 	FHz7;}fun 	void*[""<""] 	q		 ()while(*dv=""|"")if((0))break;

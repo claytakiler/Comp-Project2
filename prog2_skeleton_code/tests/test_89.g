@@ -1,0 +1,1 @@
+typedef	int T;union	K{ 	 void	u;}

@@ -1,0 +1,1 @@
+typedef		int T;fun   	T	 Nx	()return (""*"");

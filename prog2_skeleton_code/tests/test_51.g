@@ -1,0 +1,1 @@
+typedef 		int	 	  				 T;var	 	T* t ;struct    E1MYxdP6{ 					 void j; 	T*[] 	m7;}

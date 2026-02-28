@@ -1,0 +1,1 @@
+typedef 	int T;fun 	T    M			()return	{"",b94,""->""};fun 	 T 	rt ()break;

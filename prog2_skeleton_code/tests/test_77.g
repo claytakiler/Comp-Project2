@@ -1,0 +1,1 @@
+typedef  int 	 T;fun    string	M36 (  int aq,	T dr)return {"",0,""&&""};var		 const 	    T	 Js	;fun  	 	T Z4 	( 	T**	   i4){ 	  	("");break;{var const   void**   P  ;struct O9s{		T  S4;}fun		  string	Ysf ()"";	 return  "";while(Dh)break;}{	 		if(""){ }}0->h0;while(0.I6)break;}

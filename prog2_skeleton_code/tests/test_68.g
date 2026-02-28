@@ -1,0 +1,1 @@
+typedef  int  T;union  w{	int	  F1U;			string*	Y;	string*[("")]	 	K; void	 g;}var const	   	string x ;

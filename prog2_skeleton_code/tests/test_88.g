@@ -1,0 +1,1 @@
+typedef		int	T;fun 		  string*  	wt ()while(i)break;

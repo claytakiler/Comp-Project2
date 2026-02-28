@@ -1,0 +1,1 @@
+typedef	 	int  T;union 	w{		 int	n;	string 	 	Q;}var	const	 T	w	  	={""[""][""][""],{V}};union 	L4{	string**[2][0641032]   ZM;}var 	   const	 int	D 	;union 		l{		  string**[][][]	l; 		 string****	H;}fun		void     h  ()break;struct n{ T	 	 r; int****[""] c2; int**[""|""][0][0Xf3ee]	M;		int  r;}

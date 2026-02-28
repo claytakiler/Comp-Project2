@@ -1,0 +1,1 @@
+typedef	int T;var			string* 	Wd ;struct		T9{	 string G29;}

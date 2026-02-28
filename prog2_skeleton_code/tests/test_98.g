@@ -1,0 +1,1 @@
+typedef	int	T;fun 	T[][]	 		l1Llx	()p1;

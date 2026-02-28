@@ -1,0 +1,1 @@
+typedef int T;struct	mH6{	string 	K;}fun		   T[""*""]	RV  		   ()break;var 	const 				void		hA	=030020;fun   		  T	 	 	  A (	string	R1)if(b2.""|n=""){	}	else			return	{""};

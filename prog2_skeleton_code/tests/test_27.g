@@ -1,0 +1,1 @@
+typedef   int	T;union  W{ string		  g49;}

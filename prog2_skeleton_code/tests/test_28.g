@@ -1,0 +1,1 @@
+typedef	 	int		T;fun  		T[""<""]	f  ()return	K[0Xf3D];

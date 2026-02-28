@@ -1,0 +1,1 @@
+typedef 	int	 T;var 	const	 string l ={"",{""},{l9T}};fun		  int[][][][][]	 w91   ( T**	 qj6,  	 int	 VbVi9596, 	 string*	N, 	void	 x)if(0&T3={""})if(P|b73ciO3Udg)while(0)break;	else	m;

@@ -1,0 +1,901 @@
+################################################################################
+################################################################################
+typedef	int	T;var 	  		 const				 		T****  y	 =Q+p&&0;
+
+./tests/test_99.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef int 		 	 	T;var	 		 string	p ;
+
+./tests/test_8.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef int	T;fun 		string[][][]	j	()break;fun	 void	 F	()while(!0[0][v[""]])return	  ""();
+
+./tests/test_56.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef int			 	T;fun		void w	( void l){	}
+
+./tests/test_26.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef  	int	  T;var const	     	void[] 	t47		 		;
+
+./tests/test_76.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef 		int T;var	 	  int  	d25K829		 ={V=""};fun			 int	L	 ( string* 	 d4,	void** j7){	}var const 	 T l		 		=!0->"";var  		 	 T[][]	KMfJ 	 ={""<"",{""}};var	  		 T Q5l	={"",gUz5,{""},K4+"Z\t"};
+
+./tests/test_25.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef int	  T;var	const  	void 		S		=YDCf&&aH+y1W="";fun	 string bl	(	 	void i)break;var 	 	T f	="aMZ\'\r\b"&D=""("");union	 c{ string N;	void[""("")][""+""] jJ; string	ATi;}
+
+./tests/test_96.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef	int			T;union	Z97{	T D;  int*	WX6;	 	void J4;	 	int b;}
+
+./tests/test_50.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef	int 	 T;struct	p{ int* R;}union D{	void 	iz1;	 string***[] N0;	T	T;}var	  	 void I 	;fun   T	fv		()while(!""(""(),"\076",C1HgW))while(Y)if(f){	  } else {  }
+
+./tests/test_14.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef	int 	T;fun 		void	O  ()"n"*0&t4S|"\'";
+
+./tests/test_61.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef int	 T;var		  	T[""&&""]	m45 =(D());
+
+./tests/test_6.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef		int	T;fun 		  string*  	wt ()while(i)break;
+
+./tests/test_88.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef	int	T;fun 	T[][]	 		l1Llx	()p1;
+
+./tests/test_98.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef		int	T;struct 	lY7C0{ 	string*	H90;}
+
+./tests/test_71.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef	int T;var	 const 		T	 I7 ="";
+
+./tests/test_3.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef int T;var const  T[][][]  aJ0  ={""&"",{"","\'"}};
+
+./tests/test_45.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef		int		T;fun	 			string w	( string*	 	Q3, 		T 	r26,	int**[]  	X2, int 		 	P8o74, void	d393){struct V{			 					void x33y;	void*[]	 F2; string K;}	if(g*0)if(""){  } else	break;  	  	else	break;{fun		    T	m 	 	 ( 			 void IY)break;var					T		f6 ="";fun		 T	MP	()"";var 	  	  	string F	;var	  int* y1R3n ;			 0;break;{union	 k2{	void	nfc;	string* u;}var 	  	 	void 	 w	 ;		}return "";}if(0|0)"";		 else	{ {		 }break;break;}{	}}
+
+./tests/test_16.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef int	 T;union V{ 		 void** 	w;	 	 int*[][]	M3; 			 void a;}
+
+./tests/test_52.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef		int T;fun			 int np	(	 	void nY57){	break;}
+
+./tests/test_85.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef	int 			T;union	n{ 	int	r;	void  X;	int 	 	  	bX0t;}fun	   	 		 	string		z   (		int 	k, 	int[]	wP, void		n, 	 	T	 Wx)break;struct	b{		 string Q;}
+
+./tests/test_55.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef	int 			T;var	   			T* 			pV  ;fun 	T	l0	()break;struct 	C{	 int* 	  rl;}struct	b6I{	  		 	string g;   void*****[("")][""<""]		ao6; 	T	z42; 	string 	Q;}union 	P9{	T	J;		string[966] 	Uv;}
+
+./tests/test_11.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef	int	T;struct	o{ T F;}var 	 		   	  	 	T[]	 Y	 ;union Oe2{	 int X;}
+
+./tests/test_44.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef	int T;struct	 F6{			int	 h;}
+
+./tests/test_81.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef int		 T;var	   int 	i ={{""},0};var	 	T[""<""]["I\23\x8a"][!""][""()][25][""+""] 	I2	   	={{"",W3}};fun  		 int 			N  ( T u)b0C6|0&&("");fun 			   	int***	m ( string*[]  	dXg0,	int 	pJ,  	 	 int 		y, 	T***[][][][][][][]	L){ }fun 	T	d  	 (	int	be5,	  			 void	fY,	void 	r,	int	NF1, string[] w6)break;var			 T	h  ;var 	     T 	K   ;
+
+./tests/test_46.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef	 	  		int  T;struct 	Jx{ 			void*[][] f;}
+
+./tests/test_64.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef		 int	 T;fun	 	T  k ()while(0X9C4030&"\xD\\")if("K"<0)if(Lt2){ 	 }			else {	 }
+
+./tests/test_18.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef 	int T;struct T6{  int	J6t;	void	s4;}
+
+./tests/test_22.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef	 	int	T;fun 	T		S				  (	  string		W,	string	 	  	HE)"\\"()|"ALdmQTw"|IKqU2;
+
+./tests/test_24.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef int T;struct	mH6{	string 	K;}fun		   T[""*""]	RV  		   ()break;var 	const 				void		hA	=030020;fun   		  T	 	 	  A (	string	R1)if(b2.""|n=""){	}	else			return	{""};
+
+./tests/test_75.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef	int  		T;var			T	 q7A	;
+
+./tests/test_1.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef 		int	 	  				 T;var	 	T* t ;struct    E1MYxdP6{ 					 void j; 	T*[] 	m7;}
+
+./tests/test_51.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef 	int	 T;var 	const	 string l ={"",{""},{l9T}};fun		  int[][][][][]	 w91   ( T**	 qj6,  	 int	 VbVi9596, 	 string*	N, 	void	 x)if(0&T3={""})if(P|b73ciO3Udg)while(0)break;	else	m;
+
+./tests/test_93.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef  	int	T;fun  	int lSXLS9s		 	 		(){	break;return	""*"";while(zI9->I)while("I")break;}
+
+./tests/test_0.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef int	T;struct  u{	int	U;}fun	 		 int***[][][]	o	()return ""*""+""."";
+
+./tests/test_60.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef  		int T;fun		int[][][]		gN ()break;fun						T[] 	g 	(	int*****  ji){fun  	string		 z	()("");	}var const   string			A ;var		  	 		   int	G1	 	   		;var const	  string    hJ			 ={0,""[""],{"","A"}};union 	e8{	void x6;	int[""*""] 	   e;}
+
+./tests/test_94.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef	int T;struct j{ 	int***[][][]  ugN3;}struct	Y0{ int[""+""] e;}
+
+./tests/test_97.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef int	 T;var 		 	int ipA  	;
+
+./tests/test_30.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef		int	  	T;union 	e{	 		  	T**	acd; string	U5E; 	void[""|""][""()] 	H6CO18a;}var const	  	   int	 Q ;fun	 	T*   l	()if(N[0]<0="")"\\"&&"";struct   	Fp{	int*[]	M54aE; T[] llw2;   int**  L9;}var					const  		string	 R		;union	f{			void****[""+""][("")][""*""][""&&""][""->""]	  O; 	void 	x;}
+
+./tests/test_84.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef	 	int		T;fun  		T[""<""]	f  ()return	K[0Xf3D];
+
+./tests/test_28.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef int T;struct 	j{	string*	hT;	  	string[][][] a;}fun			 int  y2			(  void*****	  I33,		int*** f, string[""][""][""]	oj9L)if(0+0*0*0)""<p;
+
+./tests/test_80.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef 	int   				 T;var   	 	 T****[""("")]["\40"] K34	={{0}};
+
+./tests/test_48.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef  	int T;union	 	s{	void 	j77; 	void* 	Y;	string*  v;	void	 J3;}
+
+./tests/test_20.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef	 	int  T;union 	w{		 int	n;	string 	 	Q;}var	const	 T	w	  	={""[""][""][""],{V}};union 	L4{	string**[2][0641032]   ZM;}var 	   const	 int	D 	;union 		l{		  string**[][][]	l; 		 string****	H;}fun		void     h  ()break;struct n{ T	 	 r; int****[""] c2; int**[""|""][0][0Xf3ee]	M;		int  r;}
+
+./tests/test_67.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef int	T;var	 const 	int*[][][][]	K23g3 ;var	const 	void K9	 ={0,{""},{0}};union	 	Y{ 			 void d;			  int   r;	string		Qn; 	int		B9;			 T** 	  r;  T 	 Y; 	void uqh0L4;	void			  f9O1;  string		 h9;}
+
+./tests/test_41.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef int	T;fun		 void	  q  	( int  G)"\x6";var 	 	 T*[""()]["".""][""()] oI06h 	={{W2}};struct cbg{  T	k; void	 	tC;}fun	 string  		n	 (	 string Ch){struct fn{ 	void	o3F; T y2;} }
+
+./tests/test_5.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef int	T;var				 	 	 string v8 =""(0)->("");
+
+./tests/test_87.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef int T;var const   string y ;
+
+./tests/test_92.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef		 int	T;var 		  void	x ={(""),J4||W};var 	const		int****[""&&""][""+""] l  ;
+
+./tests/test_86.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef	int	T;struct	J{	 int	  	Lx5;}
+
+./tests/test_79.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef	int T;var			string* 	Wd ;struct		T9{	 string G29;}
+
+./tests/test_82.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef int  T;fun		void[""("","","","","","","")] 		u		 ()if(0)H|""; 		else while((tc7))if("\nY")break; else	 	 	 {	}
+
+./tests/test_72.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef	int T;var  	  T		F	;
+
+./tests/test_12.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef	int	 T;union 	Y{  	  		  			void J;}struct Tf{ T E;			 	string	j;}fun 		int*	Bz (			string[""][""]	 	Vf)if(&IE9a(""->0,h<0,0||OC,0+0))"\v"+"";
+
+./tests/test_21.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef		int T;fun  			  string r			(	int			j,	  string c)return 7;fun	 	 T[][][] 			U8	()if("\b"||0->""[0])while(C9="")"";struct	u{   T H;  int*	c;		int*	 	FHz7;}fun 	void*[""<""] 	q		 ()while(*dv=""|"")if((0))break;
+
+./tests/test_36.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef 	int T;fun 	T    M			()return	{"",b94,""->""};fun 	 T 	rt ()break;
+
+./tests/test_42.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef	 int		T;fun		string[""&""][!""]	eGx ( T[][]	d3, int	L)if(s2()(i4,""))while(0[V8en61])0;  else	{ }struct a{ T*[""<""]	 	 wCMS5; 	string  T;}
+
+./tests/test_17.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef			int  	T;fun 	void*[""||""][qZ3q][""][""->""][""<""] Ei ()return {"",DZDY,{""}};union 		Md{	string		B;	int*[""->""]	Eq;}
+
+./tests/test_10.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef int	 T;var const   	int***[]    U ;fun	     void**[][]  k	(	string[""][""][""]	 m,	 T***	b,	void  	z, void*	s, int[""] Dc)if(m6="".""&&"x\b")return	{""};struct	  		aE{		T	 q;	string*	 	 IsfVE; string[""&""][""||""][""+""][""]	K;}var const	 void*[""*""]	 q	;fun		 string	FI 		( string	  j6,	  string**[""][""][""] a, 	 void W0,  T u,	T****[][][]	C,  int*[][] 	T81ZLW)if(FV50|0<z5q+A)while(0&k)while(0)break;	else			""();struct		D{		int	 	 D;	T		c374;		T*	wtT;  void*[][]			oWs88;}var			const		int	C  =g854()();fun 	 void a 	  ( 		 void rx)break;
+
+./tests/test_69.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef		int T;fun   	T	 Nx	()return (""*"");
+
+./tests/test_73.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef  int T;var		const			 void****[]  c69	      ="J\bHgO\?"+C<"\"F"="";var		const	 		 	 	 T		m  	;
+
+./tests/test_39.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef  int  T;union  w{	int	  F1U;			string*	Y;	string*[("")]	 	K; void	 g;}var const	   	string x ;
+
+./tests/test_68.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef int		T;fun		  void 	 KV3   		()""&&"\v"*""[""];fun	  	 	string V 		()return 	""|""[""|""];fun	   						void	O ( string[""][""][""] Z, void 	f,	 	 	string	g8N, 	 	T 	  	   W)if("z\\\r"|"".0&&Dk)return G58;
+
+./tests/test_57.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef	int T;union	K{ 	 void	u;}
+
+./tests/test_89.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef   int  T;fun 			string****[][][]	K	( string 	O3TD)0||w55.W96&&"";var						string		e3	 	  ;var const 			 	T t6			 ="\xE\10z\26\x3";
+
+./tests/test_32.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef  int	T;fun 		T	 i		 ( 	T***[""][""][""][""]	S3, T j,	void  R){ 	 	02;}fun 	 		void[k] 	J70 ()return  	    		 {0,{""}};var	  T	   	p2	;var  	 	  string 	 e7		;fun		  int*[]	y2	(	 int	 G){union	 	d{ 	void[]	H30Q9z162;}	}var	const		   T	v6	 ={w3=""};fun  T**** B84	(		string	 n2,  	T 	fk0)if(""*"y"|0->"")break;
+
+./tests/test_62.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef	int	T;fun 	void***[] 		o    ()while(g*""*&0)if("")return 	"";	else	"";
+
+./tests/test_49.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef 	int T;var	const  int y6		;
+
+./tests/test_29.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef	int	T;union 	dHgD{  	T D;}
+
+./tests/test_15.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef	int	T;struct 	 sm{	 string					 u2n;	 string		l; int S;}struct	U9{		 T M;}
+
+./tests/test_35.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef	int	T;union q6{ string[] 	 		DzmB;  T**[][] 	 R;}
+
+./tests/test_23.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef	int    T;fun		 string	 U		(	int R)if(+"xX"||r2)return		 {""};
+
+./tests/test_9.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef 			int 	T;fun	  	void   hy9w  ()if(X->0*0+0)if("j")return "";struct		 O79{ int***[022055][""<""]	 	 f;}
+
+./tests/test_33.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef	 	 int T;fun  	  int	IY6n	  	()while("J\t"[u][I][0][0]["O"][y5xw][0][J4]|0+0)if("B"<f)if(0){	} else	{ }fun	 	 void f	 	 (	T[] 	H5)while(y()&&e55())while(X581+"M")while(""){				}union	b{ int	 q75; 	 int****[""||""][""|""][("")][""+""]	z;}struct A{	string	v20D;}
+
+./tests/test_4.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef	int 		T;fun  		void*   X3	 ( string m, 	void[""]	c482)return 		 {"",{""}};union y{ 	void	j;}
+
+./tests/test_65.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef int	T;fun  		 void p	()while(""[L4Zp]<I8TS="")if(*"")if(0){	}	else 	break;	else return		 "";var	const		 	T		y	 	   ;
+
+./tests/test_31.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef	int	T;union R228{	int	D6;	 string cA180;}
+
+./tests/test_90.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef	int	 T;union 	d7X{	string 			G;	T j3; void		  	Z; void[] 	  x;}union		G1{  string  	W0C;	void**	s;}fun	   			string[""->""][&""]["".""][A306][""<""]	 Wakt	  (  void	WW92)break;union	OLRd973{	string ehs8O;}
+
+./tests/test_70.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef 		 	      int	 T;var	  const   int S   =75;fun    	void					m2Ldl (	void	 Yu)if(((r2W)))"".E3;			else	return  ""*"";union		 	nW{	string npu1lS;     	   int[""&""][t][""->""][&""][""<""]["n"] L;}
+
+./tests/test_34.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef 		 int	  T;var	const  	int		zg		;
+
+./tests/test_58.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef 	 int  T;struct	m{ void*****   X;}var	const 				T**[""|""][""<""] cktp ;
+
+./tests/test_66.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef	int  T;var const 	int* 	B 			   ={0,{""},0()};struct f{	string		w43238;}var  			void  	 H	 			 	=""&&0*(0);struct	b3{ 	 	int**[][]	J;}
+
+./tests/test_91.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef	int	T;union	  	hH{  T* M4;}fun 	 void  qZ2 (	T 		w4)if("B"<0())while(0||0)break;
+
+./tests/test_19.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef	int	  T;fun 	 	int y 	(){var 		  	T* bQu 	=q01;var	 	 	T		 	zt	; 	 }
+
+./tests/test_83.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef 	 	int	T;fun  	int	Vh ()break;struct 	e1{	string	 		J7oZ;}fun    	void[&""][0xf][""()][""()]	Qbh3		()return	{O,{""}};
+
+./tests/test_37.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef  int				T;fun  void C	( 	string*[""][""] O, 	 string[][]	 hO,	void*	E){ 	if(Fp|o)return ""; else	return "";break;}fun  string 	aT	 			()if((E414)+w|p8){ break;while(""){	 		}}	 	else return	""[""];var 		 		string[]   Lcl5  ;
+
+./tests/test_13.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef  	int			T;fun    	int[""("")][""&""][""+""] Q34	 	(  	int  	 F,		string 		l)break;var	const 	  	 string*[]	 V 		={{"",0}};fun	  T      Na 	  (		string**	 		X, 	 	   	 T[""]	F0,  int[""]			VP)break;fun	  T	A	()break;
+
+./tests/test_59.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef	int		T;fun 	   void	 	 x (	void V86,	void	M)while(o&bv31I||""||0)if(""||"")"XND";
+
+./tests/test_95.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef 		 	int	T;fun    	int  	o8					()return "\53\76";
+
+./tests/test_74.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef  int			   T;var 	const	  T	 Mow	;var const  	T h3 	={{"j"}};fun				  		  int***		 L 	()J->E*"".0;struct MW{ void	  L;}fun 		 string		 b6 (){	}var 		 	  	string Nx	;
+
+./tests/test_47.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef  int 	 T;fun    string	M36 (  int aq,	T dr)return {"",0,""&&""};var		 const 	    T	 Js	;fun  	 	T Z4 	( 	T**	   i4){ 	  	("");break;{var const   void**   P  ;struct O9s{		T  S4;}fun		  string	Ysf ()"";	 return  "";while(Dh)break;}{	 		if(""){ }}0->h0;while(0.I6)break;}
+
+./tests/test_77.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef int	 T;var   	  	 string	x	 ;
+
+./tests/test_78.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef   int	T;union  W{ string		  g49;}
+
+./tests/test_27.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef	 int  	T;fun			 	string*****	I	  	 ()if(i||0|"")while(l.r)while("B"){ }var 	  	T	 DB6E3	  ;var	const  			 			string 	 	axQ   ;fun			T	W		( 	void*	 E,	  T**[""][""] Pa,	string   	e)if(0&&f&&(ifR))return {""};  else	  while(&0)while(s)break;var  const    int 	X 	="M\xb"();struct		 FW{ string*** t; T*[]  c;	void 	 q9;	string*	p;	T[D]	S5; 				T****[""[""]][""|""][""||""] x6c7L;}var  	string 	s9n	 	   ={"",0,{""},0x71};fun	 	void[""[""]]	 		V  (		 string		D, 	void	n){	}
+
+./tests/test_2.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef 	int	T;fun  void**[c][""+""] K1	()if(*Qdxf2)return	{""};var const	 T[""[""]]	p  	  ;union   	   U2t{	 int*	  	em0;	void  S;}
+
+./tests/test_63.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef int  T;union e{ 	string	q8; void B; 	  int yL;}union S{ T* 	 	  O;}fun	 		T[""&""][""&""][""||""]["P\xa"][""&""]	 		  	 y  (){var 					int t 	;var		const			 	string		Q2iqrfX  =""&""; return	  ""->"";if("")break;if(""["\""]["h\f"])while(QR)break;"".0;{union	 r{	void	d;}  }{union	 R2U{  string	e;}  }"k";}
+
+./tests/test_43.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef 	 int 		   T;var    	string	 a 	;
+
+./tests/test_7.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef	int	 			T;var 	const 	void	tO		;union			n{ 	void*[][][][]  BN;		 string K; string*		DY;}
+
+./tests/test_38.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef  int 	T;fun 	 	  		T	DpE0	  ( void		Qa4s,		string  N)if(("\f"))break;fun			 int Zy  (	int qn,		T[""][""][""]	mX, 	 int	 	b6,	 	string   k4N, 		 	void[""]  	W,  int	GN5, string 	IhV,		int[""][""]	 	oT5f,	int	x)(h*"");
+
+./tests/test_54.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef	int	T;struct ih{ 		void  c974C; string KM; int	   Mh9;}
+
+./tests/test_40.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)
+################################################################################
+typedef int			T;var	    		 int te3zn	 ;
+
+./tests/test_53.g
+Starting Parser
+Good Luck!
+Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Decl.print(int)" because the return value of "java.util.ArrayList.get(int)" is null
+	at Absyn.DeclList.print(DeclList.java:20)
+	at Parse.ParserDriver.main(ParserDriver.java:27)

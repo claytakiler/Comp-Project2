@@ -1,0 +1,1 @@
+typedef	int	 T;union 	Y{  	  		  			void J;}struct Tf{ T E;			 	string	j;}fun 		int*	Bz (			string[""][""]	 	Vf)if(&IE9a(""->0,h<0,0||OC,0+0))"\v"+"";

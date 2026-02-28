@@ -1,0 +1,1 @@
+typedef int	T;var	 const 	int*[][][][]	K23g3 ;var	const 	void K9	 ={0,{""},{0}};union	 	Y{ 			 void d;			  int   r;	string		Qn; 	int		B9;			 T** 	  r;  T 	 Y; 	void uqh0L4;	void			  f9O1;  string		 h9;}

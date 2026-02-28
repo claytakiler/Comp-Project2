@@ -1,0 +1,1 @@
+typedef	int	T;var 	  		 const				 		T****  y	 =Q+p&&0;

@@ -1,0 +1,1 @@
+typedef	int	T;union 	dHgD{  	T D;}

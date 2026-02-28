@@ -1,0 +1,1 @@
+typedef	int 			T;var	   			T* 			pV  ;fun 	T	l0	()break;struct 	C{	 int* 	  rl;}struct	b6I{	  		 	string g;   void*****[("")][""<""]		ao6; 	T	z42; 	string 	Q;}union 	P9{	T	J;		string[966] 	Uv;}

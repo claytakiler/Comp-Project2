@@ -1,0 +1,1 @@
+typedef 	int T;struct T6{  int	J6t;	void	s4;}

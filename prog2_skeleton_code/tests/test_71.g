@@ -1,0 +1,1 @@
+typedef		int	T;struct 	lY7C0{ 	string*	H90;}

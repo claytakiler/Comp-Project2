@@ -1,0 +1,1 @@
+typedef	int	T;union q6{ string[] 	 		DzmB;  T**[][] 	 R;}

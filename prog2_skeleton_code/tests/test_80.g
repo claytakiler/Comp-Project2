@@ -1,0 +1,1 @@
+typedef int T;struct 	j{	string*	hT;	  	string[][][] a;}fun			 int  y2			(  void*****	  I33,		int*** f, string[""][""][""]	oj9L)if(0+0*0*0)""<p;

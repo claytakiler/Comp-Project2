@@ -1,0 +1,1 @@
+typedef	int			T;union	Z97{	T D;  int*	WX6;	 	void J4;	 	int b;}

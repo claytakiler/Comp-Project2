@@ -1,0 +1,1 @@
+typedef  	int			T;fun    	int[""("")][""&""][""+""] Q34	 	(  	int  	 F,		string 		l)break;var	const 	  	 string*[]	 V 		={{"",0}};fun	  T      Na 	  (		string**	 		X, 	 	   	 T[""]	F0,  int[""]			VP)break;fun	  T	A	()break;

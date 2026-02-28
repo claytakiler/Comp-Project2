@@ -1,0 +1,1 @@
+typedef	int	T;fun 	void***[] 		o    ()while(g*""*&0)if("")return 	"";	else	"";

@@ -1,0 +1,1 @@
+typedef	int	T;union R228{	int	D6;	 string cA180;}

@@ -1,0 +1,1 @@
+typedef int	T;fun 		string[][][]	j	()break;fun	 void	 F	()while(!0[0][v[""]])return	  ""();

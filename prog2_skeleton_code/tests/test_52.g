@@ -1,0 +1,1 @@
+typedef int	 T;union V{ 		 void** 	w;	 	 int*[][]	M3; 			 void a;}

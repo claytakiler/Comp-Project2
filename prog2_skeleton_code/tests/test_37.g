@@ -1,0 +1,1 @@
+typedef 	 	int	T;fun  	int	Vh ()break;struct 	e1{	string	 		J7oZ;}fun    	void[&""][0xf][""()][""()]	Qbh3		()return	{O,{""}};

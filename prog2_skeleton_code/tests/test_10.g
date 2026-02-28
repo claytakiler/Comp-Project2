@@ -1,0 +1,1 @@
+typedef			int  	T;fun 	void*[""||""][qZ3q][""][""->""][""<""] Ei ()return {"",DZDY,{""}};union 		Md{	string		B;	int*[""->""]	Eq;}

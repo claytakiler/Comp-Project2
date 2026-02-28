@@ -1,0 +1,1 @@
+typedef		int T;fun			 int np	(	 	void nY57){	break;}

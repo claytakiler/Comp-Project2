@@ -1,0 +1,1 @@
+typedef  int	T;fun 		T	 i		 ( 	T***[""][""][""][""]	S3, T j,	void  R){ 	 	02;}fun 	 		void[k] 	J70 ()return  	    		 {0,{""}};var	  T	   	p2	;var  	 	  string 	 e7		;fun		  int*[]	y2	(	 int	 G){union	 	d{ 	void[]	H30Q9z162;}	}var	const		   T	v6	 ={w3=""};fun  T**** B84	(		string	 n2,  	T 	fk0)if(""*"y"|0->"")break;

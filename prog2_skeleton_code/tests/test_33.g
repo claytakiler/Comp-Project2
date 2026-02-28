@@ -1,0 +1,1 @@
+typedef 			int 	T;fun	  	void   hy9w  ()if(X->0*0+0)if("j")return "";struct		 O79{ int***[022055][""<""]	 	 f;}

@@ -1,0 +1,1 @@
+typedef int		 T;var	   int 	i ={{""},0};var	 	T[""<""]["I\23\x8a"][!""][""()][25][""+""] 	I2	   	={{"",W3}};fun  		 int 			N  ( T u)b0C6|0&&("");fun 			   	int***	m ( string*[]  	dXg0,	int 	pJ,  	 	 int 		y, 	T***[][][][][][][]	L){ }fun 	T	d  	 (	int	be5,	  			 void	fY,	void 	r,	int	NF1, string[] w6)break;var			 T	h  ;var 	     T 	K   ;
