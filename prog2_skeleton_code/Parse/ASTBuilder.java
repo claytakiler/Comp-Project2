@@ -323,7 +323,7 @@ public Absyn visitAssignExp(gParser.AssignExpContext ctx) {
 public Absyn visitDecLit(gParser.DecLitContext ctx) {
     int pos = ctx.getStart().getLine();
     String valueText = ctx.getChild(0).getText();
-    int value = Integer.parseInt(valueText);
+    int value = Integer.decode(valueText);
     return new DecLit(pos, value);
 }
 
