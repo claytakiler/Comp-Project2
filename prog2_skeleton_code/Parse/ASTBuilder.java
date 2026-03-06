@@ -318,12 +318,16 @@ public Absyn visitDecLit(gParser.DecLitContext ctx) {
 
 @Override
 public Absyn visitID(gParser.IDContext ctx) {
-    return new EmptyExp(0);
+    int pos = ctx.getStart().getLine();
+    String value = ctx.getChild(0).getText();
+    return new ID(pos, value);
 }
 
 @Override
 public Absyn visitStrLit(gParser.StrLitContext ctx) {
-    return new EmptyExp(0);
+    int pos = ctx.getStart().getLine();
+    String value = ctx.getChild(0).getText();
+    return new StrLit(pos, value);
 }
 
 }
