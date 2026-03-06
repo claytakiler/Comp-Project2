@@ -38,6 +38,11 @@ public class ASTBuilder extends gParserBaseVisitor<Absyn> {
    }
 
    @Override
+   public Absyn visitDecLit(gParser.DecLitContext ctx) {
+      
+   }
+
+   @Override
    public Absyn visit__(gParser.__Context ctx) {
       return IfStmt(
             0,
