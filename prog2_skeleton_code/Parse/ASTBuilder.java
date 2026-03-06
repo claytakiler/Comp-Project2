@@ -224,9 +224,15 @@ public Absyn visitArrayExp(gParser.ArrayExpContext ctx) {
     return new EmptyExp(0);
 }
 
+//Start Clayton
 @Override
 public Absyn visitUnaryExp(gParser.UnaryExpContext ctx) {
-    return new EmptyExp(0);
+    //Unary expression has one piece of data attached to it. Example: -x, !isTrue
+    int pos = ctx.getStart().getLine();
+    String prefix = ctx.getChild(0).getText();
+    //Visit expression thats left
+    Exp expr = (Exp) visit(ctx.expr());
+    return new UnaryExp(pos, prefix, expr);
 }
 
 @Override
