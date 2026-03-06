@@ -300,7 +300,10 @@ public Absyn visitUnaryExp(gParser.UnaryExpContext ctx) {
 
 @Override
 public Absyn visitAssignExp(gParser.AssignExpContext ctx) {
-    return new EmptyExp(0);
+    int pos = ctx.getStart().getLine();
+    Exp expr = (Exp) visit(ctx.expr());
+    Exp init =(Exp) visit(ctx.initializer());
+    return new AssignExp(pos, expr, init);
 }
 
 //End of My assignments
