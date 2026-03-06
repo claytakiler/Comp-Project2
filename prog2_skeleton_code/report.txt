@@ -4,74 +4,549 @@ typedef int			 	T;fun		void w	( void l){	}
 
 ./tests/test_26.g
 Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.DeclList.print(int)" because "this.params" is null
-	at Absyn.FunDecl.print(FunDecl.java:24)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: void,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    w,
+    Decllist(),
+    CompStmt(
+      Declarations:
+         Decllist()
+      Statements:
+         StmtList()
+    )
+  )
+)
 ################################################################################
 typedef 		int	 	  				 T;var	 	T* t ;struct    E1MYxdP6{ 					 void j; 	T*[] 	m7;}
 
 ./tests/test_51.g
 Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Exp.print(int)" because "this.init" is null
-	at Absyn.VarDecl.print(VarDecl.java:18)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Absyn.StructDecl.print(StructDecl.java:19)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  VarDecl(
+    Type(
+      Constant: false,
+      Base Type: T,
+      Pointer Stars: 1,
+      Decllist()
+    ),
+    t = 
+      EmptyExp())
+  StructDecl(
+    E1MYxdP6,
+    DeclList(
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: void,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        j = 
+          EmptyExp())
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: T,
+          Pointer Stars: 1,
+          Decllist()
+        ),
+        m7 = 
+          EmptyExp())
+    )
+  )
+)
 ################################################################################
 typedef	int	T;struct ih{ 		void  c974C; string KM; int	   Mh9;}
 
 ./tests/test_40.g
 Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Exp.print(int)" because "this.init" is null
-	at Absyn.VarDecl.print(VarDecl.java:18)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Absyn.StructDecl.print(StructDecl.java:19)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  StructDecl(
+    ih,
+    DeclList(
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: void,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        c974C = 
+          EmptyExp())
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        KM = 
+          EmptyExp())
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: int,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        Mh9 = 
+          EmptyExp())
+    )
+  )
+)
 ################################################################################
 typedef 			int 	T;fun	  	void   hy9w  ()if(X->0*0+0)if("j")return "";struct		 O79{ int***[022055][""<""]	 	 f;}
 
 ./tests/test_33.g
 Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Exp.print(int)" because "this.init" is null
-	at Absyn.VarDecl.print(VarDecl.java:18)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Absyn.StructDecl.print(StructDecl.java:19)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: void,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    hy9w,
+    Decllist(),
+    IfStmt(
+      Check: 
+        BinOp(
+          BinOp(
+            BinOp(
+              ID(X),
+              ->,
+              DecLit(0)
+            ),
+            *,
+            DecLit(0)
+          ),
+          +,
+          DecLit(0)
+        ),
+      Then: 
+        IfStmt(
+          Check: 
+            StrLit(j),
+          Then: 
+            Return(
+              StrLit()
+            ),
+          Else: 
+            EmptyStmt()
+        ),
+      Else: 
+        EmptyStmt()
+    )
+  )
+  StructDecl(
+    O79,
+    DeclList(
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: int,
+          Pointer Stars: 3,
+          Decllist()
+        ),
+        f = 
+          EmptyExp())
+    )
+  )
+)
 ################################################################################
 typedef	int	 T;union 	d7X{	string 			G;	T j3; void		  	Z; void[] 	  x;}union		G1{  string  	W0C;	void**	s;}fun	   			string[""->""][&""]["".""][A306][""<""]	 Wakt	  (  void	WW92)break;union	OLRd973{	string ehs8O;}
 
 ./tests/test_70.g
 Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Exp.print(int)" because "this.init" is null
-	at Absyn.VarDecl.print(VarDecl.java:18)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Absyn.UnionDecl.print(UnionDecl.java:19)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  UnionDecl(
+  d7X,
+    DeclList(
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        G = 
+          EmptyExp())
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: T,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        j3 = 
+          EmptyExp())
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: void,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        Z = 
+          EmptyExp())
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: void,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        x = 
+          EmptyExp())
+    )
+  )
+  UnionDecl(
+  G1,
+    DeclList(
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        W0C = 
+          EmptyExp())
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: void,
+          Pointer Stars: 2,
+          Decllist()
+        ),
+        s = 
+          EmptyExp())
+    )
+  )
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: string,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    Wakt,
+    Decllist(),
+    BreakStmt()
+  )
+  UnionDecl(
+  OLRd973,
+    DeclList(
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        ehs8O = 
+          EmptyExp())
+    )
+  )
+)
 ################################################################################
 typedef	 int  	T;fun			 	string*****	I	  	 ()if(i||0|"")while(l.r)while("B"){ }var 	  	T	 DB6E3	  ;var	const  			 			string 	 	axQ   ;fun			T	W		( 	void*	 E,	  T**[""][""] Pa,	string   	e)if(0&&f&&(ifR))return {""};  else	  while(&0)while(s)break;var  const    int 	X 	="M\xb"();struct		 FW{ string*** t; T*[]  c;	void 	 q9;	string*	p;	T[D]	S5; 				T****[""[""]][""|""][""||""] x6c7L;}var  	string 	s9n	 	   ={"",0,{""},0x71};fun	 	void[""[""]]	 		V  (		 string		D, 	void	n){	}
 
 ./tests/test_2.g
 Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.DeclList.print(int)" because "this.params" is null
-	at Absyn.FunDecl.print(FunDecl.java:24)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: string,
+      Pointer Stars: 5,
+      Decllist()
+    ),
+    I,
+    Decllist(),
+    IfStmt(
+      Check: 
+        BinOp(
+          BinOp(
+            ID(i),
+            ||,
+            DecLit(0)
+          ),
+          |,
+          StrLit()
+        ),
+      Then: 
+        WhileStmt(
+          Check:
+            BinOp(
+              ID(l),
+              .,
+              ID(r)
+            ),
+          Body:
+            WhileStmt(
+              Check:
+                StrLit(B),
+              Body:
+                CompStmt(
+                  Declarations:
+                     Decllist()
+                  Statements:
+                     StmtList()
+                )
+            )
+        ),
+      Else: 
+        EmptyStmt()
+    )
+  )
+  VarDecl(
+    Type(
+      Constant: false,
+      Base Type: T,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    DB6E3 = 
+      EmptyExp())
+  VarDecl(
+    Type(
+      Constant: true,
+      Base Type: string,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    axQ = 
+      EmptyExp())
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: T,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    W,
+    Decllist(),
+    IfStmt(
+      Check: 
+        BinOp(
+          BinOp(
+            DecLit(0),
+            &&,
+            ID(f)
+          ),
+          &&,
+          ID(ifR)
+        ),
+      Then: 
+        Return(
+          EmptyExp()
+        ),
+      Else: 
+        WhileStmt(
+          Check:
+            UnaryExp(
+              DecLit(0),
+              &
+            ),
+          Body:
+            WhileStmt(
+              Check:
+                ID(s),
+              Body:
+                BreakStmt()
+            )
+        )
+    )
+  )
+  VarDecl(
+    Type(
+      Constant: true,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    X = 
+      FunExp(
+        StrLit(M),
+        Explist()
+      ))
+  StructDecl(
+    FW,
+    DeclList(
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 3,
+          Decllist()
+        ),
+        t = 
+          EmptyExp())
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: T,
+          Pointer Stars: 1,
+          Decllist()
+        ),
+        c = 
+          EmptyExp())
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: void,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        q9 = 
+          EmptyExp())
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 1,
+          Decllist()
+        ),
+        p = 
+          EmptyExp())
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: T,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        S5 = 
+          EmptyExp())
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: T,
+          Pointer Stars: 4,
+          Decllist()
+        ),
+        x6c7L = 
+          EmptyExp())
+    )
+  )
+  VarDecl(
+    Type(
+      Constant: false,
+      Base Type: string,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    s9n = 
+      EmptyExp())
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: void,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    V,
+    Decllist(),
+    CompStmt(
+      Declarations:
+         Decllist()
+      Statements:
+         StmtList()
+    )
+  )
+)
 ################################################################################
 typedef   int	T;union  W{ string		  g49;}
 
 ./tests/test_27.g
 Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Exp.print(int)" because "this.init" is null
-	at Absyn.VarDecl.print(VarDecl.java:18)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Absyn.UnionDecl.print(UnionDecl.java:19)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  UnionDecl(
+  W,
+    DeclList(
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        g49 = 
+          EmptyExp())
+    )
+  )
+)
 ################################################################################
 typedef int	T;fun 		string[][][]	j	()break;fun	 void	 F	()while(!0[0][v[""]])return	  ""();
 
@@ -109,11 +584,25 @@ DeclList(
     Decllist(),
     WhileStmt(
       Check:
-        EmptyExp(),
+        UnaryExp(
+          ArrayExp(
+            DecLit(0),
+            ExpList(
+              DecLit(0)
+              ArrayExp(
+                ID(v),
+                ExpList(
+                  StrLit()
+                )
+              )
+            )
+          ),
+          !
+        ),
       Body:
         Return(
           FunExp(
-            EmptyExp(),
+            StrLit(),
             Explist()
           )
         )
@@ -125,10 +614,79 @@ typedef 		 	      int	 T;var	  const   int S   =75;fun    	void					m2Ldl (	void
 
 ./tests/test_34.g
 Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.DeclList.print(int)" because "this.params" is null
-	at Absyn.FunDecl.print(FunDecl.java:24)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  VarDecl(
+    Type(
+      Constant: true,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    S = 
+      DecLit(75))
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: void,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    m2Ldl,
+    Decllist(),
+    IfStmt(
+      Check: 
+        ID(r2W),
+      Then: 
+        ExprStmt(
+          BinOp(
+            StrLit(),
+            .,
+            ID(E3)
+          )
+        ),
+      Else: 
+        Return(
+          BinOp(
+            StrLit(),
+            *,
+            StrLit()
+          )
+        )
+    )
+  )
+  UnionDecl(
+  nW,
+    DeclList(
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        npu1lS = 
+          EmptyExp())
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: int,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        L = 
+          EmptyExp())
+    )
+  )
+)
 ################################################################################
 typedef  int T;var		const			 void****[]  c69	      ="J\bHgO\?"+C<"\"F"="";var		const	 		 	 	 T		m  	;
 
@@ -152,7 +710,18 @@ DeclList(
       Decllist()
     ),
     c69 = 
-      EmptyExp())
+      AssignExp(
+        BinOp(
+          BinOp(
+            StrLit(JHgO?),
+            +,
+            ID(C)
+          ),
+          <,
+          StrLit(\"F)
+        ),
+        StrLit()
+      ))
   VarDecl(
     Type(
       Constant: true,
@@ -168,23 +737,191 @@ typedef	 	int  T;union 	w{		 int	n;	string 	 	Q;}var	const	 T	w	  	={""[""][""][
 
 ./tests/test_67.g
 Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Exp.print(int)" because "this.init" is null
-	at Absyn.VarDecl.print(VarDecl.java:18)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Absyn.UnionDecl.print(UnionDecl.java:19)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  UnionDecl(
+  w,
+    DeclList(
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: int,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        n = 
+          EmptyExp())
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        Q = 
+          EmptyExp())
+    )
+  )
+  VarDecl(
+    Type(
+      Constant: true,
+      Base Type: T,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    w = 
+      EmptyExp())
+  UnionDecl(
+  L4,
+    DeclList(
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 2,
+          Decllist()
+        ),
+        ZM = 
+          EmptyExp())
+    )
+  )
+  VarDecl(
+    Type(
+      Constant: true,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    D = 
+      EmptyExp())
+  UnionDecl(
+  l,
+    DeclList(
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 2,
+          Decllist()
+        ),
+        l = 
+          EmptyExp())
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 4,
+          Decllist()
+        ),
+        H = 
+          EmptyExp())
+    )
+  )
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: void,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    h,
+    Decllist(),
+    BreakStmt()
+  )
+  StructDecl(
+    n,
+    DeclList(
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: T,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        r = 
+          EmptyExp())
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: int,
+          Pointer Stars: 4,
+          Decllist()
+        ),
+        c2 = 
+          EmptyExp())
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: int,
+          Pointer Stars: 2,
+          Decllist()
+        ),
+        M = 
+          EmptyExp())
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: int,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        r = 
+          EmptyExp())
+    )
+  )
+)
 ################################################################################
 typedef	int T;struct j{ 	int***[][][]  ugN3;}struct	Y0{ int[""+""] e;}
 
 ./tests/test_97.g
 Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Exp.print(int)" because "this.init" is null
-	at Absyn.VarDecl.print(VarDecl.java:18)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Absyn.StructDecl.print(StructDecl.java:19)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  StructDecl(
+    j,
+    DeclList(
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: int,
+          Pointer Stars: 3,
+          Decllist()
+        ),
+        ugN3 = 
+          EmptyExp())
+    )
+  )
+  StructDecl(
+    Y0,
+    DeclList(
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: int,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        e = 
+          EmptyExp())
+    )
+  )
+)
 ################################################################################
 typedef	int 	T;fun 		void	O  ()"n"*0&t4S|"\'";
 
@@ -212,15 +949,15 @@ DeclList(
     ExprStmt(
       BinOp(
         BinOp(
-          EmptyExp(),
+          StrLit(n),
           *,
-          EmptyExp()
+          DecLit(0)
         ),
         &,
         BinOp(
-          EmptyExp(),
+          ID(t4S),
           |,
-          EmptyExp()
+          StrLit(')
         )
       )
     )
@@ -256,12 +993,49 @@ typedef int	 T;union V{ 		 void** 	w;	 	 int*[][]	M3; 			 void a;}
 
 ./tests/test_52.g
 Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Exp.print(int)" because "this.init" is null
-	at Absyn.VarDecl.print(VarDecl.java:18)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Absyn.UnionDecl.print(UnionDecl.java:19)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  UnionDecl(
+  V,
+    DeclList(
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: void,
+          Pointer Stars: 2,
+          Decllist()
+        ),
+        w = 
+          EmptyExp())
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: int,
+          Pointer Stars: 1,
+          Decllist()
+        ),
+        M3 = 
+          EmptyExp())
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: void,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        a = 
+          EmptyExp())
+    )
+  )
+)
 ################################################################################
 typedef int	T;fun  		 void p	()while(""[L4Zp]<I8TS="")if(*"")if(0){	}	else 	break;	else return		 "";var	const		 	T		y	 	   ;
 
@@ -288,15 +1062,30 @@ DeclList(
     Decllist(),
     WhileStmt(
       Check:
-        EmptyExp(),
+        AssignExp(
+          BinOp(
+            ArrayExp(
+              StrLit(),
+              ExpList(
+                ID(L4Zp)
+              )
+            ),
+            <,
+            ID(I8TS)
+          ),
+          StrLit()
+        ),
       Body:
         IfStmt(
           Check: 
-            EmptyExp(),
+            UnaryExp(
+              StrLit(),
+              *
+            ),
           Then: 
             IfStmt(
               Check: 
-                EmptyExp(),
+                DecLit(0),
               Then: 
                 CompStmt(
                   Declarations:
@@ -309,7 +1098,7 @@ DeclList(
             ),
           Else: 
             Return(
-              EmptyExp()
+              StrLit()
             )
         )
     )
@@ -369,63 +1158,475 @@ typedef int		 T;var	   int 	i ={{""},0};var	 	T[""<""]["I\23\x8a"][!""][""()][25
 
 ./tests/test_46.g
 Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.DeclList.print(int)" because "this.params" is null
-	at Absyn.FunDecl.print(FunDecl.java:24)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  VarDecl(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    i = 
+      EmptyExp())
+  VarDecl(
+    Type(
+      Constant: false,
+      Base Type: T,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    I2 = 
+      EmptyExp())
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    N,
+    Decllist(),
+    ExprStmt(
+      BinOp(
+        ID(b0C6),
+        |,
+        BinOp(
+          DecLit(0),
+          &&,
+          StrLit()
+        )
+      )
+    )
+  )
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 3,
+      Decllist()
+    ),
+    m,
+    Decllist(),
+    CompStmt(
+      Declarations:
+         Decllist()
+      Statements:
+         StmtList()
+    )
+  )
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: T,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    d,
+    Decllist(),
+    BreakStmt()
+  )
+  VarDecl(
+    Type(
+      Constant: false,
+      Base Type: T,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    h = 
+      EmptyExp())
+  VarDecl(
+    Type(
+      Constant: false,
+      Base Type: T,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    K = 
+      EmptyExp())
+)
 ################################################################################
 typedef	int	 			T;var 	const 	void	tO		;union			n{ 	void*[][][][]  BN;		 string K; string*		DY;}
 
 ./tests/test_38.g
 Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Exp.print(int)" because "this.init" is null
-	at Absyn.VarDecl.print(VarDecl.java:18)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Absyn.UnionDecl.print(UnionDecl.java:19)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  VarDecl(
+    Type(
+      Constant: true,
+      Base Type: void,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    tO = 
+      EmptyExp())
+  UnionDecl(
+  n,
+    DeclList(
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: void,
+          Pointer Stars: 1,
+          Decllist()
+        ),
+        BN = 
+          EmptyExp())
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        K = 
+          EmptyExp())
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 1,
+          Decllist()
+        ),
+        DY = 
+          EmptyExp())
+    )
+  )
+)
 ################################################################################
 typedef  int	T;fun 		T	 i		 ( 	T***[""][""][""][""]	S3, T j,	void  R){ 	 	02;}fun 	 		void[k] 	J70 ()return  	    		 {0,{""}};var	  T	   	p2	;var  	 	  string 	 e7		;fun		  int*[]	y2	(	 int	 G){union	 	d{ 	void[]	H30Q9z162;}	}var	const		   T	v6	 ={w3=""};fun  T**** B84	(		string	 n2,  	T 	fk0)if(""*"y"|0->"")break;
 
 ./tests/test_62.g
 Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.DeclList.print(int)" because "this.params" is null
-	at Absyn.FunDecl.print(FunDecl.java:24)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: T,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    i,
+    Decllist(),
+    CompStmt(
+      Declarations:
+         Decllist()
+      Statements:
+         StmtList(
+          ExprStmt(
+            DecLit(2)
+          )
+        )
+    )
+  )
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: void,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    J70,
+    Decllist(),
+    Return(
+      EmptyExp()
+    )
+  )
+  VarDecl(
+    Type(
+      Constant: false,
+      Base Type: T,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    p2 = 
+      EmptyExp())
+  VarDecl(
+    Type(
+      Constant: false,
+      Base Type: string,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    e7 = 
+      EmptyExp())
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 1,
+      Decllist()
+    ),
+    y2,
+    Decllist(),
+    CompStmt(
+      Declarations:
+         DeclList(
+          UnionDecl(
+          d,
+            DeclList(
+              VarDecl(
+                Type(
+                  Constant: false,
+                  Base Type: void,
+                  Pointer Stars: 0,
+                  Decllist()
+                ),
+                H30Q9z162 = 
+                  EmptyExp())
+            )
+          )
+        )
+      Statements:
+         StmtList()
+    )
+  )
+  VarDecl(
+    Type(
+      Constant: true,
+      Base Type: T,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    v6 = 
+      EmptyExp())
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: T,
+      Pointer Stars: 4,
+      Decllist()
+    ),
+    B84,
+    Decllist(),
+    IfStmt(
+      Check: 
+        BinOp(
+          BinOp(
+            StrLit(),
+            *,
+            StrLit(y)
+          ),
+          |,
+          BinOp(
+            DecLit(0),
+            ->,
+            StrLit()
+          )
+        ),
+      Then: 
+        BreakStmt(),
+      Else: 
+        EmptyStmt()
+    )
+  )
+)
 ################################################################################
 typedef	int T;struct	 F6{			int	 h;}
 
 ./tests/test_81.g
 Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Exp.print(int)" because "this.init" is null
-	at Absyn.VarDecl.print(VarDecl.java:18)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Absyn.StructDecl.print(StructDecl.java:19)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  StructDecl(
+    F6,
+    DeclList(
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: int,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        h = 
+          EmptyExp())
+    )
+  )
+)
 ################################################################################
 typedef	int	T;union 	dHgD{  	T D;}
 
 ./tests/test_15.g
 Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Exp.print(int)" because "this.init" is null
-	at Absyn.VarDecl.print(VarDecl.java:18)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Absyn.UnionDecl.print(UnionDecl.java:19)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  UnionDecl(
+  dHgD,
+    DeclList(
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: T,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        D = 
+          EmptyExp())
+    )
+  )
+)
 ################################################################################
 typedef int	T;var	 const 	int*[][][][]	K23g3 ;var	const 	void K9	 ={0,{""},{0}};union	 	Y{ 			 void d;			  int   r;	string		Qn; 	int		B9;			 T** 	  r;  T 	 Y; 	void uqh0L4;	void			  f9O1;  string		 h9;}
 
 ./tests/test_41.g
 Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Exp.print(int)" because "this.init" is null
-	at Absyn.VarDecl.print(VarDecl.java:18)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Absyn.UnionDecl.print(UnionDecl.java:19)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  VarDecl(
+    Type(
+      Constant: true,
+      Base Type: int,
+      Pointer Stars: 1,
+      Decllist()
+    ),
+    K23g3 = 
+      EmptyExp())
+  VarDecl(
+    Type(
+      Constant: true,
+      Base Type: void,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    K9 = 
+      EmptyExp())
+  UnionDecl(
+  Y,
+    DeclList(
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: void,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        d = 
+          EmptyExp())
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: int,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        r = 
+          EmptyExp())
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        Qn = 
+          EmptyExp())
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: int,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        B9 = 
+          EmptyExp())
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: T,
+          Pointer Stars: 2,
+          Decllist()
+        ),
+        r = 
+          EmptyExp())
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: T,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        Y = 
+          EmptyExp())
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: void,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        uqh0L4 = 
+          EmptyExp())
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: void,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        f9O1 = 
+          EmptyExp())
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        h9 = 
+          EmptyExp())
+    )
+  )
+)
 ################################################################################
 typedef int 		 	 	T;var	 		 string	p ;
 
@@ -456,52 +1657,313 @@ typedef 	int T;struct T6{  int	J6t;	void	s4;}
 
 ./tests/test_22.g
 Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Exp.print(int)" because "this.init" is null
-	at Absyn.VarDecl.print(VarDecl.java:18)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Absyn.StructDecl.print(StructDecl.java:19)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  StructDecl(
+    T6,
+    DeclList(
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: int,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        J6t = 
+          EmptyExp())
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: void,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        s4 = 
+          EmptyExp())
+    )
+  )
+)
 ################################################################################
 typedef	int  T;var const 	int* 	B 			   ={0,{""},0()};struct f{	string		w43238;}var  			void  	 H	 			 	=""&&0*(0);struct	b3{ 	 	int**[][]	J;}
 
 ./tests/test_91.g
 Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Exp.print(int)" because "this.init" is null
-	at Absyn.VarDecl.print(VarDecl.java:18)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Absyn.StructDecl.print(StructDecl.java:19)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  VarDecl(
+    Type(
+      Constant: true,
+      Base Type: int,
+      Pointer Stars: 1,
+      Decllist()
+    ),
+    B = 
+      EmptyExp())
+  StructDecl(
+    f,
+    DeclList(
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        w43238 = 
+          EmptyExp())
+    )
+  )
+  VarDecl(
+    Type(
+      Constant: false,
+      Base Type: void,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    H = 
+      BinOp(
+        StrLit(),
+        &&,
+        BinOp(
+          DecLit(0),
+          *,
+          DecLit(0)
+        )
+      ))
+  StructDecl(
+    b3,
+    DeclList(
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: int,
+          Pointer Stars: 2,
+          Decllist()
+        ),
+        J = 
+          EmptyExp())
+    )
+  )
+)
 ################################################################################
 typedef	int		T;fun 	   void	 	 x (	void V86,	void	M)while(o&bv31I||""||0)if(""||"")"XND";
 
 ./tests/test_95.g
 Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.DeclList.print(int)" because "this.params" is null
-	at Absyn.FunDecl.print(FunDecl.java:24)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: void,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    x,
+    Decllist(),
+    WhileStmt(
+      Check:
+        BinOp(
+          ID(o),
+          &,
+          BinOp(
+            BinOp(
+              ID(bv31I),
+              ||,
+              StrLit()
+            ),
+            ||,
+            DecLit(0)
+          )
+        ),
+      Body:
+        IfStmt(
+          Check: 
+            BinOp(
+              StrLit(),
+              ||,
+              StrLit()
+            ),
+          Then: 
+            ExprStmt(
+              StrLit(XND)
+            ),
+          Else: 
+            EmptyStmt()
+        )
+    )
+  )
+)
 ################################################################################
 typedef 	int	T;fun  void**[c][""+""] K1	()if(*Qdxf2)return	{""};var const	 T[""[""]]	p  	  ;union   	   U2t{	 int*	  	em0;	void  S;}
 
 ./tests/test_63.g
 Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Exp.print(int)" because "this.init" is null
-	at Absyn.VarDecl.print(VarDecl.java:18)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Absyn.UnionDecl.print(UnionDecl.java:19)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: void,
+      Pointer Stars: 2,
+      Decllist()
+    ),
+    K1,
+    Decllist(),
+    IfStmt(
+      Check: 
+        UnaryExp(
+          ID(Qdxf2),
+          *
+        ),
+      Then: 
+        Return(
+          EmptyExp()
+        ),
+      Else: 
+        EmptyStmt()
+    )
+  )
+  VarDecl(
+    Type(
+      Constant: true,
+      Base Type: T,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    p = 
+      EmptyExp())
+  UnionDecl(
+  U2t,
+    DeclList(
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: int,
+          Pointer Stars: 1,
+          Decllist()
+        ),
+        em0 = 
+          EmptyExp())
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: void,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        S = 
+          EmptyExp())
+    )
+  )
+)
 ################################################################################
 typedef 		int T;var	 	  int  	d25K829		 ={V=""};fun			 int	L	 ( string* 	 d4,	void** j7){	}var const 	 T l		 		=!0->"";var  		 	 T[][]	KMfJ 	 ={""<"",{""}};var	  		 T Q5l	={"",gUz5,{""},K4+"Z\t"};
 
 ./tests/test_25.g
 Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.DeclList.print(int)" because "this.params" is null
-	at Absyn.FunDecl.print(FunDecl.java:24)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  VarDecl(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    d25K829 = 
+      EmptyExp())
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    L,
+    Decllist(),
+    CompStmt(
+      Declarations:
+         Decllist()
+      Statements:
+         StmtList()
+    )
+  )
+  VarDecl(
+    Type(
+      Constant: true,
+      Base Type: T,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    l = 
+      UnaryExp(
+        BinOp(
+          DecLit(0),
+          ->,
+          StrLit()
+        ),
+        !
+      ))
+  VarDecl(
+    Type(
+      Constant: false,
+      Base Type: T,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    KMfJ = 
+      EmptyExp())
+  VarDecl(
+    Type(
+      Constant: false,
+      Base Type: T,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    Q5l = 
+      EmptyExp())
+)
 ################################################################################
 typedef 	int T;var	const  int y6		;
 
@@ -532,14 +1994,201 @@ typedef	 	 int T;fun  	  int	IY6n	  	()while("J\t"[u][I][0][0]["O"][y5xw][0][J4]
 
 ./tests/test_4.g
 Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.DeclList.print(int)" because "this.params" is null
-	at Absyn.FunDecl.print(FunDecl.java:24)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    IY6n,
+    Decllist(),
+    WhileStmt(
+      Check:
+        BinOp(
+          ArrayExp(
+            StrLit(J	),
+            ExpList(
+              ID(u)
+              ID(I)
+              DecLit(0)
+              DecLit(0)
+              StrLit(O)
+              ID(y5xw)
+              DecLit(0)
+              ID(J4)
+            )
+          ),
+          |,
+          BinOp(
+            DecLit(0),
+            +,
+            DecLit(0)
+          )
+        ),
+      Body:
+        IfStmt(
+          Check: 
+            BinOp(
+              StrLit(B),
+              <,
+              ID(f)
+            ),
+          Then: 
+            IfStmt(
+              Check: 
+                DecLit(0),
+              Then: 
+                CompStmt(
+                  Declarations:
+                     Decllist()
+                  Statements:
+                     StmtList()
+                ),
+              Else: 
+                CompStmt(
+                  Declarations:
+                     Decllist()
+                  Statements:
+                     StmtList()
+                )
+            ),
+          Else: 
+            EmptyStmt()
+        )
+    )
+  )
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: void,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    f,
+    Decllist(),
+    WhileStmt(
+      Check:
+        BinOp(
+          FunExp(
+            ID(y),
+            Explist()
+          ),
+          &&,
+          FunExp(
+            ID(e55),
+            Explist()
+          )
+        ),
+      Body:
+        WhileStmt(
+          Check:
+            BinOp(
+              ID(X581),
+              +,
+              StrLit(M)
+            ),
+          Body:
+            WhileStmt(
+              Check:
+                StrLit(),
+              Body:
+                CompStmt(
+                  Declarations:
+                     Decllist()
+                  Statements:
+                     StmtList()
+                )
+            )
+        )
+    )
+  )
+  UnionDecl(
+  b,
+    DeclList(
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: int,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        q75 = 
+          EmptyExp())
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: int,
+          Pointer Stars: 4,
+          Decllist()
+        ),
+        z = 
+          EmptyExp())
+    )
+  )
+  StructDecl(
+    A,
+    DeclList(
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        v20D = 
+          EmptyExp())
+    )
+  )
+)
 ################################################################################
 typedef	 	int		T;fun  		T[""<""]	f  ()return	K[0Xf3D];
 
 ./tests/test_28.g
+Starting Parser
+Exception in thread "main" java.lang.NumberFormatException: For input string: "0Xf3D"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:662)
+	at java.base/java.lang.Integer.parseInt(Integer.java:778)
+	at Parse.ASTBuilder.visitDecLit(ASTBuilder.java:326)
+	at Parse.ASTBuilder.visitDecLit(ASTBuilder.java:30)
+	at Parse.antlr_build.Parse.gParser$DecLitContext.accept(gParser.java:1379)
+	at org.antlr.v4.runtime.tree.AbstractParseTreeVisitor.visit(AbstractParseTreeVisitor.java:18)
+	at Parse.ASTBuilder.visitArrayExp(ASTBuilder.java:295)
+	at Parse.ASTBuilder.visitArrayExp(ASTBuilder.java:30)
+	at Parse.antlr_build.Parse.gParser$ArrayExpContext.accept(gParser.java:1535)
+	at org.antlr.v4.runtime.tree.AbstractParseTreeVisitor.visit(AbstractParseTreeVisitor.java:18)
+	at Parse.ASTBuilder.visitInitializer(ASTBuilder.java:240)
+	at Parse.ASTBuilder.visitInitializer(ASTBuilder.java:30)
+	at Parse.antlr_build.Parse.gParser$InitializerContext.accept(gParser.java:1205)
+	at org.antlr.v4.runtime.tree.AbstractParseTreeVisitor.visit(AbstractParseTreeVisitor.java:18)
+	at Parse.ASTBuilder.visitReturnStmt(ASTBuilder.java:83)
+	at Parse.ASTBuilder.visitReturnStmt(ASTBuilder.java:30)
+	at Parse.antlr_build.Parse.gParser$ReturnStmtContext.accept(gParser.java:360)
+	at org.antlr.v4.runtime.tree.AbstractParseTreeVisitor.visit(AbstractParseTreeVisitor.java:18)
+	at Parse.ASTBuilder.visitFunDecl(ASTBuilder.java:153)
+	at Parse.ASTBuilder.visitFunDecl(ASTBuilder.java:30)
+	at Parse.antlr_build.Parse.gParser$FunDeclContext.accept(gParser.java:546)
+	at org.antlr.v4.runtime.tree.AbstractParseTreeVisitor.visit(AbstractParseTreeVisitor.java:18)
+	at Parse.ASTBuilder.visitProgram(ASTBuilder.java:37)
+	at Parse.ASTBuilder.visitProgram(ASTBuilder.java:30)
+	at Parse.antlr_build.Parse.gParser$ProgramContext.accept(gParser.java:136)
+	at org.antlr.v4.runtime.tree.AbstractParseTreeVisitor.visit(AbstractParseTreeVisitor.java:18)
+	at Parse.ParserDriver.main(ParserDriver.java:25)
+################################################################################
+typedef  int 	 T;fun    string	M36 (  int aq,	T dr)return {"",0,""&&""};var		 const 	    T	 Js	;fun  	 	T Z4 	( 	T**	   i4){ 	  	("");break;{var const   void**   P  ;struct O9s{		T  S4;}fun		  string	Ysf ()"";	 return  "";while(Dh)break;}{	 		if(""){ }}0->h0;while(0.I6)break;}
+
+./tests/test_77.g
 Starting Parser
 DeclList(
   Typedef(
@@ -554,40 +2203,366 @@ DeclList(
   FunDecl(
     Type(
       Constant: false,
+      Base Type: string,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    M36,
+    Decllist(),
+    Return(
+      EmptyExp()
+    )
+  )
+  VarDecl(
+    Type(
+      Constant: true,
       Base Type: T,
       Pointer Stars: 0,
       Decllist()
     ),
-    f,
+    Js = 
+      EmptyExp())
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: T,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    Z4,
     Decllist(),
-    Return(
-      ArrayExp(
-        EmptyExp(),
-        ExpList(
-          EmptyExp()
+    CompStmt(
+      Declarations:
+         Decllist()
+      Statements:
+         StmtList(
+          ExprStmt(
+            StrLit()
+          )
+          BreakStmt()
+          CompStmt(
+            Declarations:
+               DeclList(
+                VarDecl(
+                  Type(
+                    Constant: true,
+                    Base Type: void,
+                    Pointer Stars: 2,
+                    Decllist()
+                  ),
+                  P = 
+                    EmptyExp())
+                StructDecl(
+                  O9s,
+                  DeclList(
+                    VarDecl(
+                      Type(
+                        Constant: false,
+                        Base Type: T,
+                        Pointer Stars: 0,
+                        Decllist()
+                      ),
+                      S4 = 
+                        EmptyExp())
+                  )
+                )
+                FunDecl(
+                  Type(
+                    Constant: false,
+                    Base Type: string,
+                    Pointer Stars: 0,
+                    Decllist()
+                  ),
+                  Ysf,
+                  Decllist(),
+                  ExprStmt(
+                    StrLit()
+                  )
+                )
+              )
+            Statements:
+               StmtList(
+                Return(
+                  StrLit()
+                )
+                WhileStmt(
+                  Check:
+                    ID(Dh),
+                  Body:
+                    BreakStmt()
+                )
+              )
+          )
+          CompStmt(
+            Declarations:
+               Decllist()
+            Statements:
+               StmtList(
+                IfStmt(
+                  Check: 
+                    StrLit(),
+                  Then: 
+                    CompStmt(
+                      Declarations:
+                         Decllist()
+                      Statements:
+                         StmtList()
+                    ),
+                  Else: 
+                    EmptyStmt()
+                )
+              )
+          )
+          ExprStmt(
+            BinOp(
+              DecLit(0),
+              ->,
+              ID(h0)
+            )
+          )
+          WhileStmt(
+            Check:
+              BinOp(
+                DecLit(0),
+                .,
+                ID(I6)
+              ),
+            Body:
+              BreakStmt()
+          )
         )
-      )
     )
   )
 )
-################################################################################
-typedef  int 	 T;fun    string	M36 (  int aq,	T dr)return {"",0,""&&""};var		 const 	    T	 Js	;fun  	 	T Z4 	( 	T**	   i4){ 	  	("");break;{var const   void**   P  ;struct O9s{		T  S4;}fun		  string	Ysf ()"";	 return  "";while(Dh)break;}{	 		if(""){ }}0->h0;while(0.I6)break;}
-
-./tests/test_77.g
-Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.DeclList.print(int)" because "this.params" is null
-	at Absyn.FunDecl.print(FunDecl.java:24)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
 ################################################################################
 typedef		int		T;fun	 			string w	( string*	 	Q3, 		T 	r26,	int**[]  	X2, int 		 	P8o74, void	d393){struct V{			 					void x33y;	void*[]	 F2; string K;}	if(g*0)if(""){  } else	break;  	  	else	break;{fun		    T	m 	 	 ( 			 void IY)break;var					T		f6 ="";fun		 T	MP	()"";var 	  	  	string F	;var	  int* y1R3n ;			 0;break;{union	 k2{	void	nfc;	string* u;}var 	  	 	void 	 w	 ;		}return "";}if(0|0)"";		 else	{ {		 }break;break;}{	}}
 
 ./tests/test_16.g
 Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.DeclList.print(int)" because "this.params" is null
-	at Absyn.FunDecl.print(FunDecl.java:24)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: string,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    w,
+    Decllist(),
+    CompStmt(
+      Declarations:
+         DeclList(
+          StructDecl(
+            V,
+            DeclList(
+              VarDecl(
+                Type(
+                  Constant: false,
+                  Base Type: void,
+                  Pointer Stars: 0,
+                  Decllist()
+                ),
+                x33y = 
+                  EmptyExp())
+              VarDecl(
+                Type(
+                  Constant: false,
+                  Base Type: void,
+                  Pointer Stars: 1,
+                  Decllist()
+                ),
+                F2 = 
+                  EmptyExp())
+              VarDecl(
+                Type(
+                  Constant: false,
+                  Base Type: string,
+                  Pointer Stars: 0,
+                  Decllist()
+                ),
+                K = 
+                  EmptyExp())
+            )
+          )
+        )
+      Statements:
+         StmtList(
+          IfStmt(
+            Check: 
+              BinOp(
+                ID(g),
+                *,
+                DecLit(0)
+              ),
+            Then: 
+              IfStmt(
+                Check: 
+                  StrLit(),
+                Then: 
+                  CompStmt(
+                    Declarations:
+                       Decllist()
+                    Statements:
+                       StmtList()
+                  ),
+                Else: 
+                  BreakStmt()
+              ),
+            Else: 
+              BreakStmt()
+          )
+          CompStmt(
+            Declarations:
+               DeclList(
+                FunDecl(
+                  Type(
+                    Constant: false,
+                    Base Type: T,
+                    Pointer Stars: 0,
+                    Decllist()
+                  ),
+                  m,
+                  Decllist(),
+                  BreakStmt()
+                )
+                VarDecl(
+                  Type(
+                    Constant: false,
+                    Base Type: T,
+                    Pointer Stars: 0,
+                    Decllist()
+                  ),
+                  f6 = 
+                    StrLit())
+                FunDecl(
+                  Type(
+                    Constant: false,
+                    Base Type: T,
+                    Pointer Stars: 0,
+                    Decllist()
+                  ),
+                  MP,
+                  Decllist(),
+                  ExprStmt(
+                    StrLit()
+                  )
+                )
+                VarDecl(
+                  Type(
+                    Constant: false,
+                    Base Type: string,
+                    Pointer Stars: 0,
+                    Decllist()
+                  ),
+                  F = 
+                    EmptyExp())
+                VarDecl(
+                  Type(
+                    Constant: false,
+                    Base Type: int,
+                    Pointer Stars: 1,
+                    Decllist()
+                  ),
+                  y1R3n = 
+                    EmptyExp())
+              )
+            Statements:
+               StmtList(
+                ExprStmt(
+                  DecLit(0)
+                )
+                BreakStmt()
+                CompStmt(
+                  Declarations:
+                     DeclList(
+                      UnionDecl(
+                      k2,
+                        DeclList(
+                          VarDecl(
+                            Type(
+                              Constant: false,
+                              Base Type: void,
+                              Pointer Stars: 0,
+                              Decllist()
+                            ),
+                            nfc = 
+                              EmptyExp())
+                          VarDecl(
+                            Type(
+                              Constant: false,
+                              Base Type: string,
+                              Pointer Stars: 1,
+                              Decllist()
+                            ),
+                            u = 
+                              EmptyExp())
+                        )
+                      )
+                      VarDecl(
+                        Type(
+                          Constant: false,
+                          Base Type: void,
+                          Pointer Stars: 0,
+                          Decllist()
+                        ),
+                        w = 
+                          EmptyExp())
+                    )
+                  Statements:
+                     StmtList()
+                )
+                Return(
+                  StrLit()
+                )
+              )
+          )
+          IfStmt(
+            Check: 
+              BinOp(
+                DecLit(0),
+                |,
+                DecLit(0)
+              ),
+            Then: 
+              ExprStmt(
+                StrLit()
+              ),
+            Else: 
+              CompStmt(
+                Declarations:
+                   Decllist()
+                Statements:
+                   StmtList(
+                    CompStmt(
+                      Declarations:
+                         Decllist()
+                      Statements:
+                         StmtList()
+                    )
+                    BreakStmt()
+                    BreakStmt()
+                  )
+              )
+          )
+          CompStmt(
+            Declarations:
+               Decllist()
+            Statements:
+               StmtList()
+          )
+        )
+    )
+  )
+)
 ################################################################################
 typedef 		 	int	T;fun    	int  	o8					()return "\53\76";
 
@@ -613,7 +2588,7 @@ DeclList(
     o8,
     Decllist(),
     Return(
-      EmptyExp()
+      StrLit(+>)
     )
   )
 )
@@ -622,30 +2597,240 @@ typedef	 int		T;fun		string[""&""][!""]	eGx ( T[][]	d3, int	L)if(s2()(i4,""))whi
 
 ./tests/test_17.g
 Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.DeclList.print(int)" because "this.params" is null
-	at Absyn.FunDecl.print(FunDecl.java:24)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: string,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    eGx,
+    Decllist(),
+    IfStmt(
+      Check: 
+        FunExp(
+          FunExp(
+            ID(s2),
+            Explist()
+          ),
+          ExpList(
+            ID(i4)
+            StrLit()
+          )
+        ),
+      Then: 
+        WhileStmt(
+          Check:
+            ArrayExp(
+              DecLit(0),
+              ExpList(
+                ID(V8en61)
+              )
+            ),
+          Body:
+            ExprStmt(
+              DecLit(0)
+            )
+        ),
+      Else: 
+        CompStmt(
+          Declarations:
+             Decllist()
+          Statements:
+             StmtList()
+        )
+    )
+  )
+  StructDecl(
+    a,
+    DeclList(
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: T,
+          Pointer Stars: 1,
+          Decllist()
+        ),
+        wCMS5 = 
+          EmptyExp())
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        T = 
+          EmptyExp())
+    )
+  )
+)
 ################################################################################
 typedef	int 	 T;struct	p{ int* R;}union D{	void 	iz1;	 string***[] N0;	T	T;}var	  	 void I 	;fun   T	fv		()while(!""(""(),"\076",C1HgW))while(Y)if(f){	  } else {  }
 
 ./tests/test_14.g
 Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Exp.print(int)" because "this.init" is null
-	at Absyn.VarDecl.print(VarDecl.java:18)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Absyn.StructDecl.print(StructDecl.java:19)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  StructDecl(
+    p,
+    DeclList(
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: int,
+          Pointer Stars: 1,
+          Decllist()
+        ),
+        R = 
+          EmptyExp())
+    )
+  )
+  UnionDecl(
+  D,
+    DeclList(
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: void,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        iz1 = 
+          EmptyExp())
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 3,
+          Decllist()
+        ),
+        N0 = 
+          EmptyExp())
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: T,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        T = 
+          EmptyExp())
+    )
+  )
+  VarDecl(
+    Type(
+      Constant: false,
+      Base Type: void,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    I = 
+      EmptyExp())
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: T,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    fv,
+    Decllist(),
+    WhileStmt(
+      Check:
+        UnaryExp(
+          FunExp(
+            StrLit(),
+            ExpList(
+              FunExp(
+                StrLit(),
+                Explist()
+              )
+              StrLit(>)
+              ID(C1HgW)
+            )
+          ),
+          !
+        ),
+      Body:
+        WhileStmt(
+          Check:
+            ID(Y),
+          Body:
+            IfStmt(
+              Check: 
+                ID(f),
+              Then: 
+                CompStmt(
+                  Declarations:
+                     Decllist()
+                  Statements:
+                     StmtList()
+                ),
+              Else: 
+                CompStmt(
+                  Declarations:
+                     Decllist()
+                  Statements:
+                     StmtList()
+                )
+            )
+        )
+    )
+  )
+)
 ################################################################################
 typedef		int T;fun			 int np	(	 	void nY57){	break;}
 
 ./tests/test_85.g
 Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.DeclList.print(int)" because "this.params" is null
-	at Absyn.FunDecl.print(FunDecl.java:24)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    np,
+    Decllist(),
+    CompStmt(
+      Declarations:
+         Decllist()
+      Statements:
+         StmtList(
+          BreakStmt()
+        )
+    )
+  )
+)
 ################################################################################
 typedef 		 int	  T;var	const  	int		zg		;
 
@@ -701,30 +2886,205 @@ typedef int	  T;var	const  	void 		S		=YDCf&&aH+y1W="";fun	 string bl	(	 	void i
 
 ./tests/test_96.g
 Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.DeclList.print(int)" because "this.params" is null
-	at Absyn.FunDecl.print(FunDecl.java:24)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  VarDecl(
+    Type(
+      Constant: true,
+      Base Type: void,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    S = 
+      AssignExp(
+        BinOp(
+          ID(YDCf),
+          &&,
+          BinOp(
+            ID(aH),
+            +,
+            ID(y1W)
+          )
+        ),
+        StrLit()
+      ))
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: string,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    bl,
+    Decllist(),
+    BreakStmt()
+  )
+  VarDecl(
+    Type(
+      Constant: false,
+      Base Type: T,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    f = 
+      AssignExp(
+        BinOp(
+          StrLit(aMZ'),
+          &,
+          ID(D)
+        ),
+        FunExp(
+          StrLit(),
+          ExpList(
+            StrLit()
+          )
+        )
+      ))
+  UnionDecl(
+  c,
+    DeclList(
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        N = 
+          EmptyExp())
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: void,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        jJ = 
+          EmptyExp())
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        ATi = 
+          EmptyExp())
+    )
+  )
+)
 ################################################################################
 typedef  int 	T;fun 	 	  		T	DpE0	  ( void		Qa4s,		string  N)if(("\f"))break;fun			 int Zy  (	int qn,		T[""][""][""]	mX, 	 int	 	b6,	 	string   k4N, 		 	void[""]  	W,  int	GN5, string 	IhV,		int[""][""]	 	oT5f,	int	x)(h*"");
 
 ./tests/test_54.g
 Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.DeclList.print(int)" because "this.params" is null
-	at Absyn.FunDecl.print(FunDecl.java:24)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: T,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    DpE0,
+    Decllist(),
+    IfStmt(
+      Check: 
+        StrLit(),
+      Then: 
+        BreakStmt(),
+      Else: 
+        EmptyStmt()
+    )
+  )
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    Zy,
+    Decllist(),
+    ExprStmt(
+      BinOp(
+        ID(h),
+        *,
+        StrLit()
+      )
+    )
+  )
+)
 ################################################################################
 typedef	int	T;struct	o{ T F;}var 	 		   	  	 	T[]	 Y	 ;union Oe2{	 int X;}
 
 ./tests/test_44.g
 Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Exp.print(int)" because "this.init" is null
-	at Absyn.VarDecl.print(VarDecl.java:18)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Absyn.StructDecl.print(StructDecl.java:19)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  StructDecl(
+    o,
+    DeclList(
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: T,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        F = 
+          EmptyExp())
+    )
+  )
+  VarDecl(
+    Type(
+      Constant: false,
+      Base Type: T,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    Y = 
+      EmptyExp())
+  UnionDecl(
+  Oe2,
+    DeclList(
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: int,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        X = 
+          EmptyExp())
+    )
+  )
+)
 ################################################################################
 typedef int  T;fun		void[""("","","","","","","")] 		u		 ()if(0)H|""; 		else while((tc7))if("\nY")break; else	 	 	 {	}
 
@@ -751,23 +3111,24 @@ DeclList(
     Decllist(),
     IfStmt(
       Check: 
-        EmptyExp(),
+        DecLit(0),
       Then: 
         ExprStmt(
           BinOp(
-            EmptyExp(),
+            ID(H),
             |,
-            EmptyExp()
+            StrLit()
           )
         ),
       Else: 
         WhileStmt(
           Check:
-            EmptyExp(),
+            ID(tc7),
           Body:
             IfStmt(
               Check: 
-                EmptyExp(),
+                StrLit(
+Y),
               Then: 
                 BreakStmt(),
               Else: 
@@ -837,12 +3198,40 @@ typedef	int	T;union R228{	int	D6;	 string cA180;}
 
 ./tests/test_90.g
 Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Exp.print(int)" because "this.init" is null
-	at Absyn.VarDecl.print(VarDecl.java:18)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Absyn.UnionDecl.print(UnionDecl.java:19)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  UnionDecl(
+  R228,
+    DeclList(
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: int,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        D6 = 
+          EmptyExp())
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        cA180 = 
+          EmptyExp())
+    )
+  )
+)
 ################################################################################
 typedef	int  		T;var			T	 q7A	;
 
@@ -873,45 +3262,236 @@ typedef	int			T;union	Z97{	T D;  int*	WX6;	 	void J4;	 	int b;}
 
 ./tests/test_50.g
 Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Exp.print(int)" because "this.init" is null
-	at Absyn.VarDecl.print(VarDecl.java:18)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Absyn.UnionDecl.print(UnionDecl.java:19)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  UnionDecl(
+  Z97,
+    DeclList(
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: T,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        D = 
+          EmptyExp())
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: int,
+          Pointer Stars: 1,
+          Decllist()
+        ),
+        WX6 = 
+          EmptyExp())
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: void,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        J4 = 
+          EmptyExp())
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: int,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        b = 
+          EmptyExp())
+    )
+  )
+)
 ################################################################################
 typedef		int	T;struct 	lY7C0{ 	string*	H90;}
 
 ./tests/test_71.g
 Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Exp.print(int)" because "this.init" is null
-	at Absyn.VarDecl.print(VarDecl.java:18)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Absyn.StructDecl.print(StructDecl.java:19)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  StructDecl(
+    lY7C0,
+    DeclList(
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 1,
+          Decllist()
+        ),
+        H90 = 
+          EmptyExp())
+    )
+  )
+)
 ################################################################################
 typedef int T;struct	mH6{	string 	K;}fun		   T[""*""]	RV  		   ()break;var 	const 				void		hA	=030020;fun   		  T	 	 	  A (	string	R1)if(b2.""|n=""){	}	else			return	{""};
 
 ./tests/test_75.g
 Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Exp.print(int)" because "this.init" is null
-	at Absyn.VarDecl.print(VarDecl.java:18)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Absyn.StructDecl.print(StructDecl.java:19)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  StructDecl(
+    mH6,
+    DeclList(
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        K = 
+          EmptyExp())
+    )
+  )
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: T,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    RV,
+    Decllist(),
+    BreakStmt()
+  )
+  VarDecl(
+    Type(
+      Constant: true,
+      Base Type: void,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    hA = 
+      DecLit(30020))
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: T,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    A,
+    Decllist(),
+    IfStmt(
+      Check: 
+        AssignExp(
+          BinOp(
+            BinOp(
+              ID(b2),
+              .,
+              StrLit()
+            ),
+            |,
+            ID(n)
+          ),
+          StrLit()
+        ),
+      Then: 
+        CompStmt(
+          Declarations:
+             Decllist()
+          Statements:
+             StmtList()
+        ),
+      Else: 
+        Return(
+          EmptyExp()
+        )
+    )
+  )
+)
 ################################################################################
 typedef	int	T;struct 	 sm{	 string					 u2n;	 string		l; int S;}struct	U9{		 T M;}
 
 ./tests/test_35.g
 Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Exp.print(int)" because "this.init" is null
-	at Absyn.VarDecl.print(VarDecl.java:18)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Absyn.StructDecl.print(StructDecl.java:19)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  StructDecl(
+    sm,
+    DeclList(
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        u2n = 
+          EmptyExp())
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        l = 
+          EmptyExp())
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: int,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        S = 
+          EmptyExp())
+    )
+  )
+  StructDecl(
+    U9,
+    DeclList(
+      VarDecl(
+        Type(
+          Constant: false,
+          Base Type: T,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        M = 
+          EmptyExp())
+    )
+  )
+)
 ################################################################################
 typedef 	int   				 T;var   	 	 T****[""("")]["\40"] K34	={{0}};
 
@@ -937,890 +3517,3 @@ DeclList(
     K34 = 
       EmptyExp())
 )
-################################################################################
-typedef		 int	 T;fun	 	T  k ()while(0X9C4030&"\xD\\")if("K"<0)if(Lt2){ 	 }			else {	 }
-
-./tests/test_18.g
-Starting Parser
-DeclList(
-  Typedef(
-    Type(
-      Constant: false,
-      Base Type: int,
-      Pointer Stars: 0,
-      Decllist()
-    ),
-    T
-  )
-  FunDecl(
-    Type(
-      Constant: false,
-      Base Type: T,
-      Pointer Stars: 0,
-      Decllist()
-    ),
-    k,
-    Decllist(),
-    WhileStmt(
-      Check:
-        BinOp(
-          EmptyExp(),
-          &,
-          EmptyExp()
-        ),
-      Body:
-        IfStmt(
-          Check: 
-            BinOp(
-              EmptyExp(),
-              <,
-              EmptyExp()
-            ),
-          Then: 
-            IfStmt(
-              Check: 
-                EmptyExp(),
-              Then: 
-                CompStmt(
-                  Declarations:
-                     Decllist()
-                  Statements:
-                     StmtList()
-                ),
-              Else: 
-                CompStmt(
-                  Declarations:
-                     Decllist()
-                  Statements:
-                     StmtList()
-                )
-            ),
-          Else: 
-            EmptyStmt()
-        )
-    )
-  )
-)
-################################################################################
-typedef	int	  T;fun 	 	int y 	(){var 		  	T* bQu 	=q01;var	 	 	T		 	zt	; 	 }
-
-./tests/test_83.g
-Starting Parser
-DeclList(
-  Typedef(
-    Type(
-      Constant: false,
-      Base Type: int,
-      Pointer Stars: 0,
-      Decllist()
-    ),
-    T
-  )
-  FunDecl(
-    Type(
-      Constant: false,
-      Base Type: int,
-      Pointer Stars: 0,
-      Decllist()
-    ),
-    y,
-    Decllist(),
-    CompStmt(
-      Declarations:
-         DeclList(
-          VarDecl(
-            Type(
-              Constant: false,
-              Base Type: T,
-              Pointer Stars: 1,
-              Decllist()
-            ),
-            bQu = 
-              EmptyExp())
-          VarDecl(
-            Type(
-              Constant: false,
-              Base Type: T,
-              Pointer Stars: 0,
-              Decllist()
-            ),
-            zt = 
-              EmptyExp())
-        )
-      Statements:
-         StmtList()
-    )
-  )
-)
-################################################################################
-typedef	int	T;struct	J{	 int	  	Lx5;}
-
-./tests/test_79.g
-Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Exp.print(int)" because "this.init" is null
-	at Absyn.VarDecl.print(VarDecl.java:18)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Absyn.StructDecl.print(StructDecl.java:19)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
-################################################################################
-typedef  	int	T;fun  	int lSXLS9s		 	 		(){	break;return	""*"";while(zI9->I)while("I")break;}
-
-./tests/test_0.g
-Starting Parser
-DeclList(
-  Typedef(
-    Type(
-      Constant: false,
-      Base Type: int,
-      Pointer Stars: 0,
-      Decllist()
-    ),
-    T
-  )
-  FunDecl(
-    Type(
-      Constant: false,
-      Base Type: int,
-      Pointer Stars: 0,
-      Decllist()
-    ),
-    lSXLS9s,
-    Decllist(),
-    CompStmt(
-      Declarations:
-         Decllist()
-      Statements:
-         StmtList(
-          BreakStmt()
-          Return(
-            BinOp(
-              EmptyExp(),
-              *,
-              EmptyExp()
-            )
-          )
-          WhileStmt(
-            Check:
-              BinOp(
-                EmptyExp(),
-                ->,
-                EmptyExp()
-              ),
-            Body:
-              WhileStmt(
-                Check:
-                  EmptyExp(),
-                Body:
-                  BreakStmt()
-              )
-          )
-        )
-    )
-  )
-)
-################################################################################
-typedef int	 T;var const   	int***[]    U ;fun	     void**[][]  k	(	string[""][""][""]	 m,	 T***	b,	void  	z, void*	s, int[""] Dc)if(m6="".""&&"x\b")return	{""};struct	  		aE{		T	 q;	string*	 	 IsfVE; string[""&""][""||""][""+""][""]	K;}var const	 void*[""*""]	 q	;fun		 string	FI 		( string	  j6,	  string**[""][""][""] a, 	 void W0,  T u,	T****[][][]	C,  int*[][] 	T81ZLW)if(FV50|0<z5q+A)while(0&k)while(0)break;	else			""();struct		D{		int	 	 D;	T		c374;		T*	wtT;  void*[][]			oWs88;}var			const		int	C  =g854()();fun 	 void a 	  ( 		 void rx)break;
-
-./tests/test_69.g
-Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.DeclList.print(int)" because "this.params" is null
-	at Absyn.FunDecl.print(FunDecl.java:24)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
-################################################################################
-typedef	int	T;union q6{ string[] 	 		DzmB;  T**[][] 	 R;}
-
-./tests/test_23.g
-Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Exp.print(int)" because "this.init" is null
-	at Absyn.VarDecl.print(VarDecl.java:18)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Absyn.UnionDecl.print(UnionDecl.java:19)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
-################################################################################
-typedef	int	T;fun 	void***[] 		o    ()while(g*""*&0)if("")return 	"";	else	"";
-
-./tests/test_49.g
-Starting Parser
-DeclList(
-  Typedef(
-    Type(
-      Constant: false,
-      Base Type: int,
-      Pointer Stars: 0,
-      Decllist()
-    ),
-    T
-  )
-  FunDecl(
-    Type(
-      Constant: false,
-      Base Type: void,
-      Pointer Stars: 3,
-      Decllist()
-    ),
-    o,
-    Decllist(),
-    WhileStmt(
-      Check:
-        BinOp(
-          BinOp(
-            EmptyExp(),
-            *,
-            EmptyExp()
-          ),
-          *,
-          EmptyExp()
-        ),
-      Body:
-        IfStmt(
-          Check: 
-            EmptyExp(),
-          Then: 
-            Return(
-              EmptyExp()
-            ),
-          Else: 
-            ExprStmt(
-              EmptyExp()
-            )
-        )
-    )
-  )
-)
-################################################################################
-typedef		 int	T;var 		  void	x ={(""),J4||W};var 	const		int****[""&&""][""+""] l  ;
-
-./tests/test_86.g
-Starting Parser
-DeclList(
-  Typedef(
-    Type(
-      Constant: false,
-      Base Type: int,
-      Pointer Stars: 0,
-      Decllist()
-    ),
-    T
-  )
-  VarDecl(
-    Type(
-      Constant: false,
-      Base Type: void,
-      Pointer Stars: 0,
-      Decllist()
-    ),
-    x = 
-      EmptyExp())
-  VarDecl(
-    Type(
-      Constant: true,
-      Base Type: int,
-      Pointer Stars: 4,
-      Decllist()
-    ),
-    l = 
-      EmptyExp())
-)
-################################################################################
-typedef	int	T;fun 	T[][]	 		l1Llx	()p1;
-
-./tests/test_98.g
-Starting Parser
-DeclList(
-  Typedef(
-    Type(
-      Constant: false,
-      Base Type: int,
-      Pointer Stars: 0,
-      Decllist()
-    ),
-    T
-  )
-  FunDecl(
-    Type(
-      Constant: false,
-      Base Type: T,
-      Pointer Stars: 0,
-      Decllist()
-    ),
-    l1Llx,
-    Decllist(),
-    ExprStmt(
-      EmptyExp()
-    )
-  )
-)
-################################################################################
-typedef	int 			T;union	n{ 	int	r;	void  X;	int 	 	  	bX0t;}fun	   	 		 	string		z   (		int 	k, 	int[]	wP, void		n, 	 	T	 Wx)break;struct	b{		 string Q;}
-
-./tests/test_55.g
-Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Exp.print(int)" because "this.init" is null
-	at Absyn.VarDecl.print(VarDecl.java:18)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Absyn.UnionDecl.print(UnionDecl.java:19)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
-################################################################################
-typedef	int    T;fun		 string	 U		(	int R)if(+"xX"||r2)return		 {""};
-
-./tests/test_9.g
-Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.DeclList.print(int)" because "this.params" is null
-	at Absyn.FunDecl.print(FunDecl.java:24)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
-################################################################################
-typedef	 	  		int  T;struct 	Jx{ 			void*[][] f;}
-
-./tests/test_64.g
-Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Exp.print(int)" because "this.init" is null
-	at Absyn.VarDecl.print(VarDecl.java:18)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Absyn.StructDecl.print(StructDecl.java:19)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
-################################################################################
-typedef	int T;var	 const 		T	 I7 ="";
-
-./tests/test_3.g
-Starting Parser
-DeclList(
-  Typedef(
-    Type(
-      Constant: false,
-      Base Type: int,
-      Pointer Stars: 0,
-      Decllist()
-    ),
-    T
-  )
-  VarDecl(
-    Type(
-      Constant: true,
-      Base Type: T,
-      Pointer Stars: 0,
-      Decllist()
-    ),
-    I7 = 
-      EmptyExp())
-)
-################################################################################
-typedef  int				T;fun  void C	( 	string*[""][""] O, 	 string[][]	 hO,	void*	E){ 	if(Fp|o)return ""; else	return "";break;}fun  string 	aT	 			()if((E414)+w|p8){ break;while(""){	 		}}	 	else return	""[""];var 		 		string[]   Lcl5  ;
-
-./tests/test_13.g
-Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.DeclList.print(int)" because "this.params" is null
-	at Absyn.FunDecl.print(FunDecl.java:24)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
-################################################################################
-typedef		int	  	T;union 	e{	 		  	T**	acd; string	U5E; 	void[""|""][""()] 	H6CO18a;}var const	  	   int	 Q ;fun	 	T*   l	()if(N[0]<0="")"\\"&&"";struct   	Fp{	int*[]	M54aE; T[] llw2;   int**  L9;}var					const  		string	 R		;union	f{			void****[""+""][("")][""*""][""&&""][""->""]	  O; 	void 	x;}
-
-./tests/test_84.g
-Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Exp.print(int)" because "this.init" is null
-	at Absyn.VarDecl.print(VarDecl.java:18)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Absyn.UnionDecl.print(UnionDecl.java:19)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
-################################################################################
-typedef int  T;union e{ 	string	q8; void B; 	  int yL;}union S{ T* 	 	  O;}fun	 		T[""&""][""&""][""||""]["P\xa"][""&""]	 		  	 y  (){var 					int t 	;var		const			 	string		Q2iqrfX  =""&""; return	  ""->"";if("")break;if(""["\""]["h\f"])while(QR)break;"".0;{union	 r{	void	d;}  }{union	 R2U{  string	e;}  }"k";}
-
-./tests/test_43.g
-Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Exp.print(int)" because "this.init" is null
-	at Absyn.VarDecl.print(VarDecl.java:18)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Absyn.UnionDecl.print(UnionDecl.java:19)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
-################################################################################
-typedef int T;var const   string y ;
-
-./tests/test_92.g
-Starting Parser
-DeclList(
-  Typedef(
-    Type(
-      Constant: false,
-      Base Type: int,
-      Pointer Stars: 0,
-      Decllist()
-    ),
-    T
-  )
-  VarDecl(
-    Type(
-      Constant: true,
-      Base Type: string,
-      Pointer Stars: 0,
-      Decllist()
-    ),
-    y = 
-      EmptyExp())
-)
-################################################################################
-typedef  	int			T;fun    	int[""("")][""&""][""+""] Q34	 	(  	int  	 F,		string 		l)break;var	const 	  	 string*[]	 V 		={{"",0}};fun	  T      Na 	  (		string**	 		X, 	 	   	 T[""]	F0,  int[""]			VP)break;fun	  T	A	()break;
-
-./tests/test_59.g
-Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.DeclList.print(int)" because "this.params" is null
-	at Absyn.FunDecl.print(FunDecl.java:24)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
-################################################################################
-typedef int	T;var				 	 	 string v8 =""(0)->("");
-
-./tests/test_87.g
-Starting Parser
-DeclList(
-  Typedef(
-    Type(
-      Constant: false,
-      Base Type: int,
-      Pointer Stars: 0,
-      Decllist()
-    ),
-    T
-  )
-  VarDecl(
-    Type(
-      Constant: false,
-      Base Type: string,
-      Pointer Stars: 0,
-      Decllist()
-    ),
-    v8 = 
-      BinOp(
-        FunExp(
-          EmptyExp(),
-          ExpList(
-            EmptyExp()
-          )
-        ),
-        ->,
-        EmptyExp()
-      ))
-)
-################################################################################
-typedef	 	int	T;fun 	T		S				  (	  string		W,	string	 	  	HE)"\\"()|"ALdmQTw"|IKqU2;
-
-./tests/test_24.g
-Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.DeclList.print(int)" because "this.params" is null
-	at Absyn.FunDecl.print(FunDecl.java:24)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
-################################################################################
-typedef		int T;fun   	T	 Nx	()return (""*"");
-
-./tests/test_73.g
-Starting Parser
-DeclList(
-  Typedef(
-    Type(
-      Constant: false,
-      Base Type: int,
-      Pointer Stars: 0,
-      Decllist()
-    ),
-    T
-  )
-  FunDecl(
-    Type(
-      Constant: false,
-      Base Type: T,
-      Pointer Stars: 0,
-      Decllist()
-    ),
-    Nx,
-    Decllist(),
-    Return(
-      BinOp(
-        EmptyExp(),
-        *,
-        EmptyExp()
-      )
-    )
-  )
-)
-################################################################################
-typedef int	 T;var 		 	int ipA  	;
-
-./tests/test_30.g
-Starting Parser
-DeclList(
-  Typedef(
-    Type(
-      Constant: false,
-      Base Type: int,
-      Pointer Stars: 0,
-      Decllist()
-    ),
-    T
-  )
-  VarDecl(
-    Type(
-      Constant: false,
-      Base Type: int,
-      Pointer Stars: 0,
-      Decllist()
-    ),
-    ipA = 
-      EmptyExp())
-)
-################################################################################
-typedef		int T;fun  			  string r			(	int			j,	  string c)return 7;fun	 	 T[][][] 			U8	()if("\b"||0->""[0])while(C9="")"";struct	u{   T H;  int*	c;		int*	 	FHz7;}fun 	void*[""<""] 	q		 ()while(*dv=""|"")if((0))break;
-
-./tests/test_36.g
-Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.DeclList.print(int)" because "this.params" is null
-	at Absyn.FunDecl.print(FunDecl.java:24)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
-################################################################################
-typedef 	int	 T;var 	const	 string l ={"",{""},{l9T}};fun		  int[][][][][]	 w91   ( T**	 qj6,  	 int	 VbVi9596, 	 string*	N, 	void	 x)if(0&T3={""})if(P|b73ciO3Udg)while(0)break;	else	m;
-
-./tests/test_93.g
-Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.DeclList.print(int)" because "this.params" is null
-	at Absyn.FunDecl.print(FunDecl.java:24)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
-################################################################################
-typedef  	int T;union	 	s{	void 	j77; 	void* 	Y;	string*  v;	void	 J3;}
-
-./tests/test_20.g
-Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Exp.print(int)" because "this.init" is null
-	at Absyn.VarDecl.print(VarDecl.java:18)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Absyn.UnionDecl.print(UnionDecl.java:19)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
-################################################################################
-typedef int	T;fun		 void	  q  	( int  G)"\x6";var 	 	 T*[""()]["".""][""()] oI06h 	={{W2}};struct cbg{  T	k; void	 	tC;}fun	 string  		n	 (	 string Ch){struct fn{ 	void	o3F; T y2;} }
-
-./tests/test_5.g
-Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.DeclList.print(int)" because "this.params" is null
-	at Absyn.FunDecl.print(FunDecl.java:24)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
-################################################################################
-typedef 	 int  T;struct	m{ void*****   X;}var	const 				T**[""|""][""<""] cktp ;
-
-./tests/test_66.g
-Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Exp.print(int)" because "this.init" is null
-	at Absyn.VarDecl.print(VarDecl.java:18)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Absyn.StructDecl.print(StructDecl.java:19)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
-################################################################################
-typedef int			T;var	    		 int te3zn	 ;
-
-./tests/test_53.g
-Starting Parser
-DeclList(
-  Typedef(
-    Type(
-      Constant: false,
-      Base Type: int,
-      Pointer Stars: 0,
-      Decllist()
-    ),
-    T
-  )
-  VarDecl(
-    Type(
-      Constant: false,
-      Base Type: int,
-      Pointer Stars: 0,
-      Decllist()
-    ),
-    te3zn = 
-      EmptyExp())
-)
-################################################################################
-typedef	int	 T;union 	Y{  	  		  			void J;}struct Tf{ T E;			 	string	j;}fun 		int*	Bz (			string[""][""]	 	Vf)if(&IE9a(""->0,h<0,0||OC,0+0))"\v"+"";
-
-./tests/test_21.g
-Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Exp.print(int)" because "this.init" is null
-	at Absyn.VarDecl.print(VarDecl.java:18)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Absyn.UnionDecl.print(UnionDecl.java:19)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
-################################################################################
-typedef	int T;var			string* 	Wd ;struct		T9{	 string G29;}
-
-./tests/test_82.g
-Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Exp.print(int)" because "this.init" is null
-	at Absyn.VarDecl.print(VarDecl.java:18)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Absyn.StructDecl.print(StructDecl.java:19)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
-################################################################################
-typedef  int			   T;var 	const	  T	 Mow	;var const  	T h3 	={{"j"}};fun				  		  int***		 L 	()J->E*"".0;struct MW{ void	  L;}fun 		 string		 b6 (){	}var 		 	  	string Nx	;
-
-./tests/test_47.g
-Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Exp.print(int)" because "this.init" is null
-	at Absyn.VarDecl.print(VarDecl.java:18)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Absyn.StructDecl.print(StructDecl.java:19)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
-################################################################################
-typedef int T;var const  T[][][]  aJ0  ={""&"",{"","\'"}};
-
-./tests/test_45.g
-Starting Parser
-DeclList(
-  Typedef(
-    Type(
-      Constant: false,
-      Base Type: int,
-      Pointer Stars: 0,
-      Decllist()
-    ),
-    T
-  )
-  VarDecl(
-    Type(
-      Constant: true,
-      Base Type: T,
-      Pointer Stars: 0,
-      Decllist()
-    ),
-    aJ0 = 
-      EmptyExp())
-)
-################################################################################
-typedef int	T;struct  u{	int	U;}fun	 		 int***[][][]	o	()return ""*""+""."";
-
-./tests/test_60.g
-Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Exp.print(int)" because "this.init" is null
-	at Absyn.VarDecl.print(VarDecl.java:18)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Absyn.StructDecl.print(StructDecl.java:19)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
-################################################################################
-typedef	int	T;union	  	hH{  T* M4;}fun 	 void  qZ2 (	T 		w4)if("B"<0())while(0||0)break;
-
-./tests/test_19.g
-Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Exp.print(int)" because "this.init" is null
-	at Absyn.VarDecl.print(VarDecl.java:18)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Absyn.UnionDecl.print(UnionDecl.java:19)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
-################################################################################
-typedef int		T;fun		  void 	 KV3   		()""&&"\v"*""[""];fun	  	 	string V 		()return 	""|""[""|""];fun	   						void	O ( string[""][""][""] Z, void 	f,	 	 	string	g8N, 	 	T 	  	   W)if("z\\\r"|"".0&&Dk)return G58;
-
-./tests/test_57.g
-Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.DeclList.print(int)" because "this.params" is null
-	at Absyn.FunDecl.print(FunDecl.java:24)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
-################################################################################
-typedef	int 		T;fun  		void*   X3	 ( string m, 	void[""]	c482)return 		 {"",{""}};union y{ 	void	j;}
-
-./tests/test_65.g
-Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.DeclList.print(int)" because "this.params" is null
-	at Absyn.FunDecl.print(FunDecl.java:24)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
-################################################################################
-typedef		int	T;fun 		  string*  	wt ()while(i)break;
-
-./tests/test_88.g
-Starting Parser
-DeclList(
-  Typedef(
-    Type(
-      Constant: false,
-      Base Type: int,
-      Pointer Stars: 0,
-      Decllist()
-    ),
-    T
-  )
-  FunDecl(
-    Type(
-      Constant: false,
-      Base Type: string,
-      Pointer Stars: 1,
-      Decllist()
-    ),
-    wt,
-    Decllist(),
-    WhileStmt(
-      Check:
-        EmptyExp(),
-      Body:
-        BreakStmt()
-    )
-  )
-)
-################################################################################
-typedef  int  T;union  w{	int	  F1U;			string*	Y;	string*[("")]	 	K; void	 g;}var const	   	string x ;
-
-./tests/test_68.g
-Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Exp.print(int)" because "this.init" is null
-	at Absyn.VarDecl.print(VarDecl.java:18)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Absyn.UnionDecl.print(UnionDecl.java:19)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
-################################################################################
-typedef  		int T;fun		int[][][]		gN ()break;fun						T[] 	g 	(	int*****  ji){fun  	string		 z	()("");	}var const   string			A ;var		  	 		   int	G1	 	   		;var const	  string    hJ			 ={0,""[""],{"","A"}};union 	e8{	void x6;	int[""*""] 	   e;}
-
-./tests/test_94.g
-Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.DeclList.print(int)" because "this.params" is null
-	at Absyn.FunDecl.print(FunDecl.java:24)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
-################################################################################
-typedef	int 			T;var	   			T* 			pV  ;fun 	T	l0	()break;struct 	C{	 int* 	  rl;}struct	b6I{	  		 	string g;   void*****[("")][""<""]		ao6; 	T	z42; 	string 	Q;}union 	P9{	T	J;		string[966] 	Uv;}
-
-./tests/test_11.g
-Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Exp.print(int)" because "this.init" is null
-	at Absyn.VarDecl.print(VarDecl.java:18)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Absyn.StructDecl.print(StructDecl.java:19)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
-################################################################################
-typedef	int T;union	K{ 	 void	u;}
-
-./tests/test_89.g
-Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Exp.print(int)" because "this.init" is null
-	at Absyn.VarDecl.print(VarDecl.java:18)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Absyn.UnionDecl.print(UnionDecl.java:19)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
-################################################################################
-typedef	int	T;var 	  		 const				 		T****  y	 =Q+p&&0;
-
-./tests/test_99.g
-Starting Parser
-DeclList(
-  Typedef(
-    Type(
-      Constant: false,
-      Base Type: int,
-      Pointer Stars: 0,
-      Decllist()
-    ),
-    T
-  )
-  VarDecl(
-    Type(
-      Constant: true,
-      Base Type: T,
-      Pointer Stars: 4,
-      Decllist()
-    ),
-    y = 
-      BinOp(
-        BinOp(
-          EmptyExp(),
-          +,
-          EmptyExp()
-        ),
-        &&,
-        EmptyExp()
-      ))
-)
-################################################################################
-typedef int	 T;var		  	T[""&&""]	m45 =(D());
-
-./tests/test_6.g
-Starting Parser
-DeclList(
-  Typedef(
-    Type(
-      Constant: false,
-      Base Type: int,
-      Pointer Stars: 0,
-      Decllist()
-    ),
-    T
-  )
-  VarDecl(
-    Type(
-      Constant: false,
-      Base Type: T,
-      Pointer Stars: 0,
-      Decllist()
-    ),
-    m45 = 
-      FunExp(
-        EmptyExp(),
-        Explist()
-      ))
-)
-################################################################################
-typedef   int  T;fun 			string****[][][]	K	( string 	O3TD)0||w55.W96&&"";var						string		e3	 	  ;var const 			 	T t6			 ="\xE\10z\26\x3";
-
-./tests/test_32.g
-Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.DeclList.print(int)" because "this.params" is null
-	at Absyn.FunDecl.print(FunDecl.java:24)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
-################################################################################
-typedef 	 	int	T;fun  	int	Vh ()break;struct 	e1{	string	 		J7oZ;}fun    	void[&""][0xf][""()][""()]	Qbh3		()return	{O,{""}};
-
-./tests/test_37.g
-Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Exp.print(int)" because "this.init" is null
-	at Absyn.VarDecl.print(VarDecl.java:18)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Absyn.StructDecl.print(StructDecl.java:19)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
-################################################################################
-typedef int T;struct 	j{	string*	hT;	  	string[][][] a;}fun			 int  y2			(  void*****	  I33,		int*** f, string[""][""][""]	oj9L)if(0+0*0*0)""<p;
-
-./tests/test_80.g
-Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Exp.print(int)" because "this.init" is null
-	at Absyn.VarDecl.print(VarDecl.java:18)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Absyn.StructDecl.print(StructDecl.java:19)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)
-################################################################################
-typedef			int  	T;fun 	void*[""||""][qZ3q][""][""->""][""<""] Ei ()return {"",DZDY,{""}};union 		Md{	string		B;	int*[""->""]	Eq;}
-
-./tests/test_10.g
-Starting Parser
-Exception in thread "main" java.lang.NullPointerException: Cannot invoke "Absyn.Exp.print(int)" because "this.init" is null
-	at Absyn.VarDecl.print(VarDecl.java:18)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Absyn.UnionDecl.print(UnionDecl.java:19)
-	at Absyn.DeclList.print(DeclList.java:20)
-	at Parse.ParserDriver.main(ParserDriver.java:27)

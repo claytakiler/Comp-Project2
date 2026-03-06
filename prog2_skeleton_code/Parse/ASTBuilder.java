@@ -114,36 +114,47 @@ public class ASTBuilder extends gParserBaseVisitor<Absyn> {
 @Override
 public Absyn visitVarDecl(gParser.VarDeclContext ctx) {
     int pos = ctx.getStart().getLine();
-    Type type =  (Type) visit(ctx.type());
-    String name = ctx.ID().getText();                     
+
+    Type type = (Type) visit(ctx.type());
+    String name = ctx.ID().getText();
+
     Exp init;
-    gParser.InitializationContext initContext =  ctx.initialization();     
-    if (initContext==null){
-      init= new EmptyExp(pos);
+    if (ctx.initialization() == null) {
+        init = new EmptyExp(pos);   // ← CRITICAL FIX
+    } else {
+        init = (Exp) visit(ctx.initialization());
+        if (init == null) {         // ← defensive shield
+            init = new EmptyExp(pos);
+        }
     }
-    else{
-      init = (Exp) visit(initContext);
-    }
+
     return new VarDecl(pos, type, name, init);
 }
+
 
 //| FUN type ID LPAREN parameters? RPAREN statement #FunDecl
 @Override
 public Absyn visitFunDecl(gParser.FunDeclContext ctx) {
-    int pos      = ctx.getStart().getLine();
-    Type type =  (Type)visit(ctx.type());
-    String name  = ctx.ID().getText();
+    int pos = ctx.getStart().getLine();
+
+    Type returnType = (Type) visit(ctx.type());
+    String name = ctx.ID().getText();
+
     DeclList params;
-    gParser.ParametersContext paramsContext = ctx.parameters(); 
-    if (paramsContext == null){
-         params = new DeclList(pos);
+    if (ctx.parameters() == null) {
+        params = new DeclList(pos);
+    } else {
+        params = (DeclList) visit(ctx.parameters());
+        if (params == null) {          
+            params = new DeclList(pos);
+        }
     }
-    else{
-         params = (DeclList) visit(ctx.parameters());
-    }
-    Stmt body    = (Stmt) visit(ctx.statement());
-    return new FunDecl(pos, type, name, params, body);
+
+    Stmt body = (Stmt) visit(ctx.statement());
+
+    return new FunDecl(pos, returnType, name, params, body);
 }
+
 
 //VAR type ID initialization SEMICOLON #VarDecl
 @Override
@@ -164,7 +175,7 @@ public Absyn visitStructOrUnionDecl(gParser.StructOrUnionDeclContext ctx) {
     for (int i = 0; i < ctx.type().size(); i++) {
         Type fieldType = (Type) visit(ctx.type(i));
         String fieldName = ctx.ID(i + 1).getText(); 
-        body.list.add(new VarDecl(pos, fieldType, fieldName, null));
+        body.list.add(new VarDecl(pos, fieldType, fieldName, new EmptyExp(pos)));
     }
 
     if (ctx.STRUCT() == null) {

@@ -5699,3 +5699,3014 @@ DeclList(
 typedef  int				T;fun  void C	( 	string*[""][""] O, 	 string[][]	 hO,	void*	E){ 	if(Fp|o)return ""; else	return "";break;}fun  string 	aT	 			()if((E414)+w|p8){ break;while(""){	 		}}	 	else return	""[""];var 		 		string[]   Lcl5  ;
 
 ./tests/test_13.g
+Starting Parser
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: void,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    C,
+    DeclList(
+      Parameter(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 1,
+          DeclList(
+            [
+              StrLit()
+            ]
+            [
+              StrLit()
+            ]
+          )
+        ),
+        O
+      )
+      Parameter(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 0,
+          DeclList(
+            [
+              EmptyExp()
+            ]
+            [
+              EmptyExp()
+            ]
+          )
+        ),
+        hO
+      )
+      Parameter(
+        Type(
+          Constant: false,
+          Base Type: void,
+          Pointer Stars: 1,
+          Decllist()
+        ),
+        E
+      )
+    ),
+    CompStmt(
+      Declarations:
+         Decllist()
+      Statements:
+         StmtList(
+          IfStmt(
+            Check: 
+              BinOp(
+                ID(Fp),
+                |,
+                ID(o)
+              ),
+            Then: 
+              Return(
+                StrLit()
+              ),
+            Else: 
+              Return(
+                StrLit()
+              )
+          )
+          BreakStmt()
+        )
+    )
+  )
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: string,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    aT,
+    Decllist(),
+    IfStmt(
+      Check: 
+        BinOp(
+          BinOp(
+            ID(E414),
+            +,
+            ID(w)
+          ),
+          |,
+          ID(p8)
+        ),
+      Then: 
+        CompStmt(
+          Declarations:
+             Decllist()
+          Statements:
+             StmtList(
+              BreakStmt()
+              WhileStmt(
+                Check:
+                  StrLit(),
+                Body:
+                  CompStmt(
+                    Declarations:
+                       Decllist()
+                    Statements:
+                       StmtList()
+                  )
+              )
+            )
+        ),
+      Else: 
+        Return(
+          ArrayExp(
+            StrLit(),
+            ExpList(
+              StrLit()
+            )
+          )
+        )
+    )
+  )
+  VarDecl(
+    Type(
+      Constant: false,
+      Base Type: string,
+      Pointer Stars: 0,
+      DeclList(
+        [
+          EmptyExp()
+        ]
+      )
+    ),
+    Lcl5 = 
+      Explist())
+)
+################################################################################
+typedef		int	  	T;union 	e{	 		  	T**	acd; string	U5E; 	void[""|""][""()] 	H6CO18a;}var const	  	   int	 Q ;fun	 	T*   l	()if(N[0]<0="")"\\"&&"";struct   	Fp{	int*[]	M54aE; T[] llw2;   int**  L9;}var					const  		string	 R		;union	f{			void****[""+""][("")][""*""][""&&""][""->""]	  O; 	void 	x;}
+
+./tests/test_84.g
+Starting Parser
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  UnionDecl(
+  e,
+    DeclList(
+      UnionMember(
+        Type(
+          Constant: false,
+          Base Type: T,
+          Pointer Stars: 2,
+          Decllist()
+        ),
+        acd
+      )
+      UnionMember(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        U5E
+      )
+      UnionMember(
+        Type(
+          Constant: false,
+          Base Type: void,
+          Pointer Stars: 0,
+          DeclList(
+            [
+              BinOp(
+                StrLit(),
+                |,
+                StrLit()
+              )
+            ]
+            [
+              FunExp(
+                StrLit(),
+                Explist()
+              )
+            ]
+          )
+        ),
+        H6CO18a
+      )
+    )
+  )
+  VarDecl(
+    Type(
+      Constant: true,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    Q = 
+      Explist())
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: T,
+      Pointer Stars: 1,
+      Decllist()
+    ),
+    l,
+    Decllist(),
+    IfStmt(
+      Check: 
+        AssignExp(
+          BinOp(
+            ArrayExp(
+              ID(N),
+              ExpList(
+                DecLit(0)
+              )
+            ),
+            <,
+            DecLit(0)
+          ),
+          StrLit()
+        ),
+      Then: 
+        ExprStmt(
+          BinOp(
+            StrLit(\),
+            &&,
+            StrLit()
+          )
+        ),
+      Else: 
+        EmptyStmt()
+    )
+  )
+  StructDecl(
+    Fp,
+    DeclList(
+      StructMember(
+        Type(
+          Constant: false,
+          Base Type: int,
+          Pointer Stars: 1,
+          DeclList(
+            [
+              EmptyExp()
+            ]
+          )
+        ),
+        M54aE
+      )
+      StructMember(
+        Type(
+          Constant: false,
+          Base Type: T,
+          Pointer Stars: 0,
+          DeclList(
+            [
+              EmptyExp()
+            ]
+          )
+        ),
+        llw2
+      )
+      StructMember(
+        Type(
+          Constant: false,
+          Base Type: int,
+          Pointer Stars: 2,
+          Decllist()
+        ),
+        L9
+      )
+    )
+  )
+  VarDecl(
+    Type(
+      Constant: true,
+      Base Type: string,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    R = 
+      Explist())
+  UnionDecl(
+  f,
+    DeclList(
+      UnionMember(
+        Type(
+          Constant: false,
+          Base Type: void,
+          Pointer Stars: 4,
+          DeclList(
+            [
+              BinOp(
+                StrLit(),
+                +,
+                StrLit()
+              )
+            ]
+            [
+              StrLit()
+            ]
+            [
+              BinOp(
+                StrLit(),
+                *,
+                StrLit()
+              )
+            ]
+            [
+              BinOp(
+                StrLit(),
+                &&,
+                StrLit()
+              )
+            ]
+            [
+              BinOp(
+                StrLit(),
+                ->,
+                StrLit()
+              )
+            ]
+          )
+        ),
+        O
+      )
+      UnionMember(
+        Type(
+          Constant: false,
+          Base Type: void,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        x
+      )
+    )
+  )
+)
+################################################################################
+typedef int  T;union e{ 	string	q8; void B; 	  int yL;}union S{ T* 	 	  O;}fun	 		T[""&""][""&""][""||""]["P\xa"][""&""]	 		  	 y  (){var 					int t 	;var		const			 	string		Q2iqrfX  =""&""; return	  ""->"";if("")break;if(""["\""]["h\f"])while(QR)break;"".0;{union	 r{	void	d;}  }{union	 R2U{  string	e;}  }"k";}
+
+./tests/test_43.g
+Starting Parser
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  UnionDecl(
+  e,
+    DeclList(
+      UnionMember(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        q8
+      )
+      UnionMember(
+        Type(
+          Constant: false,
+          Base Type: void,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        B
+      )
+      UnionMember(
+        Type(
+          Constant: false,
+          Base Type: int,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        yL
+      )
+    )
+  )
+  UnionDecl(
+  S,
+    DeclList(
+      UnionMember(
+        Type(
+          Constant: false,
+          Base Type: T,
+          Pointer Stars: 1,
+          Decllist()
+        ),
+        O
+      )
+    )
+  )
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: T,
+      Pointer Stars: 0,
+      DeclList(
+        [
+          BinOp(
+            StrLit(),
+            &,
+            StrLit()
+          )
+        ]
+        [
+          BinOp(
+            StrLit(),
+            &,
+            StrLit()
+          )
+        ]
+        [
+          BinOp(
+            StrLit(),
+            ||,
+            StrLit()
+          )
+        ]
+        [
+          StrLit(P
+)
+        ]
+        [
+          BinOp(
+            StrLit(),
+            &,
+            StrLit()
+          )
+        ]
+      )
+    ),
+    y,
+    Decllist(),
+    CompStmt(
+      Declarations:
+         DeclList(
+          VarDecl(
+            Type(
+              Constant: false,
+              Base Type: int,
+              Pointer Stars: 0,
+              Decllist()
+            ),
+            t = 
+              Explist())
+          VarDecl(
+            Type(
+              Constant: true,
+              Base Type: string,
+              Pointer Stars: 0,
+              Decllist()
+            ),
+            Q2iqrfX = 
+              BinOp(
+                StrLit(),
+                &,
+                StrLit()
+              ))
+        )
+      Statements:
+         StmtList(
+          Return(
+            BinOp(
+              StrLit(),
+              ->,
+              StrLit()
+            )
+          )
+          IfStmt(
+            Check: 
+              StrLit(),
+            Then: 
+              BreakStmt(),
+            Else: 
+              EmptyStmt()
+          )
+          IfStmt(
+            Check: 
+              ArrayExp(
+                StrLit(),
+                ExpList(
+                  StrLit(\")
+                  StrLit(h)
+                )
+              ),
+            Then: 
+              WhileStmt(
+                Check:
+                  ID(QR),
+                Body:
+                  BreakStmt()
+              ),
+            Else: 
+              EmptyStmt()
+          )
+          ExprStmt(
+            BinOp(
+              StrLit(),
+              .,
+              DecLit(0)
+            )
+          )
+          CompStmt(
+            Declarations:
+               DeclList(
+                UnionDecl(
+                r,
+                  DeclList(
+                    UnionMember(
+                      Type(
+                        Constant: false,
+                        Base Type: void,
+                        Pointer Stars: 0,
+                        Decllist()
+                      ),
+                      d
+                    )
+                  )
+                )
+              )
+            Statements:
+               StmtList()
+          )
+          CompStmt(
+            Declarations:
+               DeclList(
+                UnionDecl(
+                R2U,
+                  DeclList(
+                    UnionMember(
+                      Type(
+                        Constant: false,
+                        Base Type: string,
+                        Pointer Stars: 0,
+                        Decllist()
+                      ),
+                      e
+                    )
+                  )
+                )
+              )
+            Statements:
+               StmtList()
+          )
+          ExprStmt(
+            StrLit(k)
+          )
+        )
+    )
+  )
+)
+################################################################################
+typedef int T;var const   string y ;
+
+./tests/test_92.g
+Starting Parser
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  VarDecl(
+    Type(
+      Constant: true,
+      Base Type: string,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    y = 
+      Explist())
+)
+################################################################################
+typedef  	int			T;fun    	int[""("")][""&""][""+""] Q34	 	(  	int  	 F,		string 		l)break;var	const 	  	 string*[]	 V 		={{"",0}};fun	  T      Na 	  (		string**	 		X, 	 	   	 T[""]	F0,  int[""]			VP)break;fun	  T	A	()break;
+
+./tests/test_59.g
+Starting Parser
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      DeclList(
+        [
+          FunExp(
+            StrLit(),
+            ExpList(
+              StrLit()
+            )
+          )
+        ]
+        [
+          BinOp(
+            StrLit(),
+            &,
+            StrLit()
+          )
+        ]
+        [
+          BinOp(
+            StrLit(),
+            +,
+            StrLit()
+          )
+        ]
+      )
+    ),
+    Q34,
+    DeclList(
+      Parameter(
+        Type(
+          Constant: false,
+          Base Type: int,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        F
+      )
+      Parameter(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        l
+      )
+    ),
+    BreakStmt()
+  )
+  VarDecl(
+    Type(
+      Constant: true,
+      Base Type: string,
+      Pointer Stars: 1,
+      DeclList(
+        [
+          EmptyExp()
+        ]
+      )
+    ),
+    V = 
+      ExpList(
+        ExpList(
+          StrLit()
+          DecLit(0)
+        )
+      ))
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: T,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    Na,
+    DeclList(
+      Parameter(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 2,
+          Decllist()
+        ),
+        X
+      )
+      Parameter(
+        Type(
+          Constant: false,
+          Base Type: T,
+          Pointer Stars: 0,
+          DeclList(
+            [
+              StrLit()
+            ]
+          )
+        ),
+        F0
+      )
+      Parameter(
+        Type(
+          Constant: false,
+          Base Type: int,
+          Pointer Stars: 0,
+          DeclList(
+            [
+              StrLit()
+            ]
+          )
+        ),
+        VP
+      )
+    ),
+    BreakStmt()
+  )
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: T,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    A,
+    Decllist(),
+    BreakStmt()
+  )
+)
+################################################################################
+typedef int	T;var				 	 	 string v8 =""(0)->("");
+
+./tests/test_87.g
+Starting Parser
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  VarDecl(
+    Type(
+      Constant: false,
+      Base Type: string,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    v8 = 
+      BinOp(
+        FunExp(
+          StrLit(),
+          ExpList(
+            DecLit(0)
+          )
+        ),
+        ->,
+        StrLit()
+      ))
+)
+################################################################################
+typedef	 	int	T;fun 	T		S				  (	  string		W,	string	 	  	HE)"\\"()|"ALdmQTw"|IKqU2;
+
+./tests/test_24.g
+Starting Parser
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: T,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    S,
+    DeclList(
+      Parameter(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        W
+      )
+      Parameter(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        HE
+      )
+    ),
+    ExprStmt(
+      BinOp(
+        BinOp(
+          FunExp(
+            StrLit(\),
+            Explist()
+          ),
+          |,
+          StrLit(ALdmQTw)
+        ),
+        |,
+        ID(IKqU2)
+      )
+    )
+  )
+)
+################################################################################
+typedef		int T;fun   	T	 Nx	()return (""*"");
+
+./tests/test_73.g
+Starting Parser
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: T,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    Nx,
+    Decllist(),
+    Return(
+      BinOp(
+        StrLit(),
+        *,
+        StrLit()
+      )
+    )
+  )
+)
+################################################################################
+typedef int	 T;var 		 	int ipA  	;
+
+./tests/test_30.g
+Starting Parser
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  VarDecl(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    ipA = 
+      Explist())
+)
+################################################################################
+typedef		int T;fun  			  string r			(	int			j,	  string c)return 7;fun	 	 T[][][] 			U8	()if("\b"||0->""[0])while(C9="")"";struct	u{   T H;  int*	c;		int*	 	FHz7;}fun 	void*[""<""] 	q		 ()while(*dv=""|"")if((0))break;
+
+./tests/test_36.g
+Starting Parser
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: string,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    r,
+    DeclList(
+      Parameter(
+        Type(
+          Constant: false,
+          Base Type: int,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        j
+      )
+      Parameter(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        c
+      )
+    ),
+    Return(
+      DecLit(7)
+    )
+  )
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: T,
+      Pointer Stars: 0,
+      DeclList(
+        [
+          EmptyExp()
+        ]
+        [
+          EmptyExp()
+        ]
+        [
+          EmptyExp()
+        ]
+      )
+    ),
+    U8,
+    Decllist(),
+    IfStmt(
+      Check: 
+        BinOp(
+          StrLit(),
+          ||,
+          ArrayExp(
+            BinOp(
+              DecLit(0),
+              ->,
+              StrLit()
+            ),
+            ExpList(
+              DecLit(0)
+            )
+          )
+        ),
+      Then: 
+        WhileStmt(
+          Check:
+            AssignExp(
+              ID(C9),
+              StrLit()
+            ),
+          Body:
+            ExprStmt(
+              StrLit()
+            )
+        ),
+      Else: 
+        EmptyStmt()
+    )
+  )
+  StructDecl(
+    u,
+    DeclList(
+      StructMember(
+        Type(
+          Constant: false,
+          Base Type: T,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        H
+      )
+      StructMember(
+        Type(
+          Constant: false,
+          Base Type: int,
+          Pointer Stars: 1,
+          Decllist()
+        ),
+        c
+      )
+      StructMember(
+        Type(
+          Constant: false,
+          Base Type: int,
+          Pointer Stars: 1,
+          Decllist()
+        ),
+        FHz7
+      )
+    )
+  )
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: void,
+      Pointer Stars: 1,
+      DeclList(
+        [
+          BinOp(
+            StrLit(),
+            <,
+            StrLit()
+          )
+        ]
+      )
+    ),
+    q,
+    Decllist(),
+    WhileStmt(
+      Check:
+        AssignExp(
+          UnaryExp(
+            ID(dv),
+            *
+          ),
+          BinOp(
+            StrLit(),
+            |,
+            StrLit()
+          )
+        ),
+      Body:
+        IfStmt(
+          Check: 
+            DecLit(0),
+          Then: 
+            BreakStmt(),
+          Else: 
+            EmptyStmt()
+        )
+    )
+  )
+)
+################################################################################
+typedef 	int	 T;var 	const	 string l ={"",{""},{l9T}};fun		  int[][][][][]	 w91   ( T**	 qj6,  	 int	 VbVi9596, 	 string*	N, 	void	 x)if(0&T3={""})if(P|b73ciO3Udg)while(0)break;	else	m;
+
+./tests/test_93.g
+Starting Parser
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  VarDecl(
+    Type(
+      Constant: true,
+      Base Type: string,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    l = 
+      ExpList(
+        StrLit()
+        ExpList(
+          StrLit()
+        )
+        ExpList(
+          ID(l9T)
+        )
+      ))
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      DeclList(
+        [
+          EmptyExp()
+        ]
+        [
+          EmptyExp()
+        ]
+        [
+          EmptyExp()
+        ]
+        [
+          EmptyExp()
+        ]
+        [
+          EmptyExp()
+        ]
+      )
+    ),
+    w91,
+    DeclList(
+      Parameter(
+        Type(
+          Constant: false,
+          Base Type: T,
+          Pointer Stars: 2,
+          Decllist()
+        ),
+        qj6
+      )
+      Parameter(
+        Type(
+          Constant: false,
+          Base Type: int,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        VbVi9596
+      )
+      Parameter(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 1,
+          Decllist()
+        ),
+        N
+      )
+      Parameter(
+        Type(
+          Constant: false,
+          Base Type: void,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        x
+      )
+    ),
+    IfStmt(
+      Check: 
+        AssignExp(
+          BinOp(
+            DecLit(0),
+            &,
+            ID(T3)
+          ),
+          ExpList(
+            StrLit()
+          )
+        ),
+      Then: 
+        IfStmt(
+          Check: 
+            BinOp(
+              ID(P),
+              |,
+              ID(b73ciO3Udg)
+            ),
+          Then: 
+            WhileStmt(
+              Check:
+                DecLit(0),
+              Body:
+                BreakStmt()
+            ),
+          Else: 
+            ExprStmt(
+              ID(m)
+            )
+        ),
+      Else: 
+        EmptyStmt()
+    )
+  )
+)
+################################################################################
+typedef  	int T;union	 	s{	void 	j77; 	void* 	Y;	string*  v;	void	 J3;}
+
+./tests/test_20.g
+Starting Parser
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  UnionDecl(
+  s,
+    DeclList(
+      UnionMember(
+        Type(
+          Constant: false,
+          Base Type: void,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        j77
+      )
+      UnionMember(
+        Type(
+          Constant: false,
+          Base Type: void,
+          Pointer Stars: 1,
+          Decllist()
+        ),
+        Y
+      )
+      UnionMember(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 1,
+          Decllist()
+        ),
+        v
+      )
+      UnionMember(
+        Type(
+          Constant: false,
+          Base Type: void,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        J3
+      )
+    )
+  )
+)
+################################################################################
+typedef int	T;fun		 void	  q  	( int  G)"\x6";var 	 	 T*[""()]["".""][""()] oI06h 	={{W2}};struct cbg{  T	k; void	 	tC;}fun	 string  		n	 (	 string Ch){struct fn{ 	void	o3F; T y2;} }
+
+./tests/test_5.g
+Starting Parser
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: void,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    q,
+    DeclList(
+      Parameter(
+        Type(
+          Constant: false,
+          Base Type: int,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        G
+      )
+    ),
+    ExprStmt(
+      StrLit()
+    )
+  )
+  VarDecl(
+    Type(
+      Constant: false,
+      Base Type: T,
+      Pointer Stars: 1,
+      DeclList(
+        [
+          FunExp(
+            StrLit(),
+            Explist()
+          )
+        ]
+        [
+          BinOp(
+            StrLit(),
+            .,
+            StrLit()
+          )
+        ]
+        [
+          FunExp(
+            StrLit(),
+            Explist()
+          )
+        ]
+      )
+    ),
+    oI06h = 
+      ExpList(
+        ExpList(
+          ID(W2)
+        )
+      ))
+  StructDecl(
+    cbg,
+    DeclList(
+      StructMember(
+        Type(
+          Constant: false,
+          Base Type: T,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        k
+      )
+      StructMember(
+        Type(
+          Constant: false,
+          Base Type: void,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        tC
+      )
+    )
+  )
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: string,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    n,
+    DeclList(
+      Parameter(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        Ch
+      )
+    ),
+    CompStmt(
+      Declarations:
+         DeclList(
+          StructDecl(
+            fn,
+            DeclList(
+              StructMember(
+                Type(
+                  Constant: false,
+                  Base Type: void,
+                  Pointer Stars: 0,
+                  Decllist()
+                ),
+                o3F
+              )
+              StructMember(
+                Type(
+                  Constant: false,
+                  Base Type: T,
+                  Pointer Stars: 0,
+                  Decllist()
+                ),
+                y2
+              )
+            )
+          )
+        )
+      Statements:
+         StmtList()
+    )
+  )
+)
+################################################################################
+typedef 	 int  T;struct	m{ void*****   X;}var	const 				T**[""|""][""<""] cktp ;
+
+./tests/test_66.g
+Starting Parser
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  StructDecl(
+    m,
+    DeclList(
+      StructMember(
+        Type(
+          Constant: false,
+          Base Type: void,
+          Pointer Stars: 5,
+          Decllist()
+        ),
+        X
+      )
+    )
+  )
+  VarDecl(
+    Type(
+      Constant: true,
+      Base Type: T,
+      Pointer Stars: 2,
+      DeclList(
+        [
+          BinOp(
+            StrLit(),
+            |,
+            StrLit()
+          )
+        ]
+        [
+          BinOp(
+            StrLit(),
+            <,
+            StrLit()
+          )
+        ]
+      )
+    ),
+    cktp = 
+      Explist())
+)
+################################################################################
+typedef int			T;var	    		 int te3zn	 ;
+
+./tests/test_53.g
+Starting Parser
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  VarDecl(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    te3zn = 
+      Explist())
+)
+################################################################################
+typedef	int	 T;union 	Y{  	  		  			void J;}struct Tf{ T E;			 	string	j;}fun 		int*	Bz (			string[""][""]	 	Vf)if(&IE9a(""->0,h<0,0||OC,0+0))"\v"+"";
+
+./tests/test_21.g
+Starting Parser
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  UnionDecl(
+  Y,
+    DeclList(
+      UnionMember(
+        Type(
+          Constant: false,
+          Base Type: void,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        J
+      )
+    )
+  )
+  StructDecl(
+    Tf,
+    DeclList(
+      StructMember(
+        Type(
+          Constant: false,
+          Base Type: T,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        E
+      )
+      StructMember(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        j
+      )
+    )
+  )
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 1,
+      Decllist()
+    ),
+    Bz,
+    DeclList(
+      Parameter(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 0,
+          DeclList(
+            [
+              StrLit()
+            ]
+            [
+              StrLit()
+            ]
+          )
+        ),
+        Vf
+      )
+    ),
+    IfStmt(
+      Check: 
+        UnaryExp(
+          FunExp(
+            ID(IE9a),
+            ExpList(
+              BinOp(
+                StrLit(),
+                ->,
+                DecLit(0)
+              )
+              BinOp(
+                ID(h),
+                <,
+                DecLit(0)
+              )
+              BinOp(
+                DecLit(0),
+                ||,
+                ID(OC)
+              )
+              BinOp(
+                DecLit(0),
+                +,
+                DecLit(0)
+              )
+            )
+          ),
+          &
+        ),
+      Then: 
+        ExprStmt(
+          BinOp(
+            StrLit(),
+            +,
+            StrLit()
+          )
+        ),
+      Else: 
+        EmptyStmt()
+    )
+  )
+)
+################################################################################
+typedef	int T;var			string* 	Wd ;struct		T9{	 string G29;}
+
+./tests/test_82.g
+Starting Parser
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  VarDecl(
+    Type(
+      Constant: false,
+      Base Type: string,
+      Pointer Stars: 1,
+      Decllist()
+    ),
+    Wd = 
+      Explist())
+  StructDecl(
+    T9,
+    DeclList(
+      StructMember(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        G29
+      )
+    )
+  )
+)
+################################################################################
+typedef  int			   T;var 	const	  T	 Mow	;var const  	T h3 	={{"j"}};fun				  		  int***		 L 	()J->E*"".0;struct MW{ void	  L;}fun 		 string		 b6 (){	}var 		 	  	string Nx	;
+
+./tests/test_47.g
+Starting Parser
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  VarDecl(
+    Type(
+      Constant: true,
+      Base Type: T,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    Mow = 
+      Explist())
+  VarDecl(
+    Type(
+      Constant: true,
+      Base Type: T,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    h3 = 
+      ExpList(
+        ExpList(
+          StrLit(j)
+        )
+      ))
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 3,
+      Decllist()
+    ),
+    L,
+    Decllist(),
+    ExprStmt(
+      BinOp(
+        BinOp(
+          ID(J),
+          ->,
+          ID(E)
+        ),
+        *,
+        BinOp(
+          StrLit(),
+          .,
+          DecLit(0)
+        )
+      )
+    )
+  )
+  StructDecl(
+    MW,
+    DeclList(
+      StructMember(
+        Type(
+          Constant: false,
+          Base Type: void,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        L
+      )
+    )
+  )
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: string,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    b6,
+    Decllist(),
+    CompStmt(
+      Declarations:
+         Decllist()
+      Statements:
+         StmtList()
+    )
+  )
+  VarDecl(
+    Type(
+      Constant: false,
+      Base Type: string,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    Nx = 
+      Explist())
+)
+################################################################################
+typedef int T;var const  T[][][]  aJ0  ={""&"",{"","\'"}};
+
+./tests/test_45.g
+Starting Parser
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  VarDecl(
+    Type(
+      Constant: true,
+      Base Type: T,
+      Pointer Stars: 0,
+      DeclList(
+        [
+          EmptyExp()
+        ]
+        [
+          EmptyExp()
+        ]
+        [
+          EmptyExp()
+        ]
+      )
+    ),
+    aJ0 = 
+      ExpList(
+        BinOp(
+          StrLit(),
+          &,
+          StrLit()
+        )
+        ExpList(
+          StrLit()
+          StrLit(')
+        )
+      ))
+)
+################################################################################
+typedef int	T;struct  u{	int	U;}fun	 		 int***[][][]	o	()return ""*""+""."";
+
+./tests/test_60.g
+Starting Parser
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  StructDecl(
+    u,
+    DeclList(
+      StructMember(
+        Type(
+          Constant: false,
+          Base Type: int,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        U
+      )
+    )
+  )
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 3,
+      DeclList(
+        [
+          EmptyExp()
+        ]
+        [
+          EmptyExp()
+        ]
+        [
+          EmptyExp()
+        ]
+      )
+    ),
+    o,
+    Decllist(),
+    Return(
+      BinOp(
+        BinOp(
+          StrLit(),
+          *,
+          StrLit()
+        ),
+        +,
+        BinOp(
+          StrLit(),
+          .,
+          StrLit()
+        )
+      )
+    )
+  )
+)
+################################################################################
+typedef	int	T;union	  	hH{  T* M4;}fun 	 void  qZ2 (	T 		w4)if("B"<0())while(0||0)break;
+
+./tests/test_19.g
+Starting Parser
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  UnionDecl(
+  hH,
+    DeclList(
+      UnionMember(
+        Type(
+          Constant: false,
+          Base Type: T,
+          Pointer Stars: 1,
+          Decllist()
+        ),
+        M4
+      )
+    )
+  )
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: void,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    qZ2,
+    DeclList(
+      Parameter(
+        Type(
+          Constant: false,
+          Base Type: T,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        w4
+      )
+    ),
+    IfStmt(
+      Check: 
+        BinOp(
+          StrLit(B),
+          <,
+          FunExp(
+            DecLit(0),
+            Explist()
+          )
+        ),
+      Then: 
+        WhileStmt(
+          Check:
+            BinOp(
+              DecLit(0),
+              ||,
+              DecLit(0)
+            ),
+          Body:
+            BreakStmt()
+        ),
+      Else: 
+        EmptyStmt()
+    )
+  )
+)
+################################################################################
+typedef int		T;fun		  void 	 KV3   		()""&&"\v"*""[""];fun	  	 	string V 		()return 	""|""[""|""];fun	   						void	O ( string[""][""][""] Z, void 	f,	 	 	string	g8N, 	 	T 	  	   W)if("z\\\r"|"".0&&Dk)return G58;
+
+./tests/test_57.g
+Starting Parser
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: void,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    KV3,
+    Decllist(),
+    ExprStmt(
+      BinOp(
+        StrLit(),
+        &&,
+        BinOp(
+          StrLit(),
+          *,
+          ArrayExp(
+            StrLit(),
+            ExpList(
+              StrLit()
+            )
+          )
+        )
+      )
+    )
+  )
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: string,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    V,
+    Decllist(),
+    Return(
+      BinOp(
+        StrLit(),
+        |,
+        ArrayExp(
+          StrLit(),
+          ExpList(
+            BinOp(
+              StrLit(),
+              |,
+              StrLit()
+            )
+          )
+        )
+      )
+    )
+  )
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: void,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    O,
+    DeclList(
+      Parameter(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 0,
+          DeclList(
+            [
+              StrLit()
+            ]
+            [
+              StrLit()
+            ]
+            [
+              StrLit()
+            ]
+          )
+        ),
+        Z
+      )
+      Parameter(
+        Type(
+          Constant: false,
+          Base Type: void,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        f
+      )
+      Parameter(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        g8N
+      )
+      Parameter(
+        Type(
+          Constant: false,
+          Base Type: T,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        W
+      )
+    ),
+    IfStmt(
+      Check: 
+        BinOp(
+          StrLit(z\),
+          |,
+          BinOp(
+            BinOp(
+              StrLit(),
+              .,
+              DecLit(0)
+            ),
+            &&,
+            ID(Dk)
+          )
+        ),
+      Then: 
+        Return(
+          ID(G58)
+        ),
+      Else: 
+        EmptyStmt()
+    )
+  )
+)
+################################################################################
+typedef	int 		T;fun  		void*   X3	 ( string m, 	void[""]	c482)return 		 {"",{""}};union y{ 	void	j;}
+
+./tests/test_65.g
+Starting Parser
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: void,
+      Pointer Stars: 1,
+      Decllist()
+    ),
+    X3,
+    DeclList(
+      Parameter(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        m
+      )
+      Parameter(
+        Type(
+          Constant: false,
+          Base Type: void,
+          Pointer Stars: 0,
+          DeclList(
+            [
+              StrLit()
+            ]
+          )
+        ),
+        c482
+      )
+    ),
+    Return(
+      ExpList(
+        StrLit()
+        ExpList(
+          StrLit()
+        )
+      )
+    )
+  )
+  UnionDecl(
+  y,
+    DeclList(
+      UnionMember(
+        Type(
+          Constant: false,
+          Base Type: void,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        j
+      )
+    )
+  )
+)
+################################################################################
+typedef		int	T;fun 		  string*  	wt ()while(i)break;
+
+./tests/test_88.g
+Starting Parser
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: string,
+      Pointer Stars: 1,
+      Decllist()
+    ),
+    wt,
+    Decllist(),
+    WhileStmt(
+      Check:
+        ID(i),
+      Body:
+        BreakStmt()
+    )
+  )
+)
+################################################################################
+typedef  int  T;union  w{	int	  F1U;			string*	Y;	string*[("")]	 	K; void	 g;}var const	   	string x ;
+
+./tests/test_68.g
+Starting Parser
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  UnionDecl(
+  w,
+    DeclList(
+      UnionMember(
+        Type(
+          Constant: false,
+          Base Type: int,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        F1U
+      )
+      UnionMember(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 1,
+          Decllist()
+        ),
+        Y
+      )
+      UnionMember(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 1,
+          DeclList(
+            [
+              StrLit()
+            ]
+          )
+        ),
+        K
+      )
+      UnionMember(
+        Type(
+          Constant: false,
+          Base Type: void,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        g
+      )
+    )
+  )
+  VarDecl(
+    Type(
+      Constant: true,
+      Base Type: string,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    x = 
+      Explist())
+)
+################################################################################
+typedef  		int T;fun		int[][][]		gN ()break;fun						T[] 	g 	(	int*****  ji){fun  	string		 z	()("");	}var const   string			A ;var		  	 		   int	G1	 	   		;var const	  string    hJ			 ={0,""[""],{"","A"}};union 	e8{	void x6;	int[""*""] 	   e;}
+
+./tests/test_94.g
+Starting Parser
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      DeclList(
+        [
+          EmptyExp()
+        ]
+        [
+          EmptyExp()
+        ]
+        [
+          EmptyExp()
+        ]
+      )
+    ),
+    gN,
+    Decllist(),
+    BreakStmt()
+  )
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: T,
+      Pointer Stars: 0,
+      DeclList(
+        [
+          EmptyExp()
+        ]
+      )
+    ),
+    g,
+    DeclList(
+      Parameter(
+        Type(
+          Constant: false,
+          Base Type: int,
+          Pointer Stars: 5,
+          Decllist()
+        ),
+        ji
+      )
+    ),
+    CompStmt(
+      Declarations:
+         DeclList(
+          FunDecl(
+            Type(
+              Constant: false,
+              Base Type: string,
+              Pointer Stars: 0,
+              Decllist()
+            ),
+            z,
+            Decllist(),
+            ExprStmt(
+              StrLit()
+            )
+          )
+        )
+      Statements:
+         StmtList()
+    )
+  )
+  VarDecl(
+    Type(
+      Constant: true,
+      Base Type: string,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    A = 
+      Explist())
+  VarDecl(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    G1 = 
+      Explist())
+  VarDecl(
+    Type(
+      Constant: true,
+      Base Type: string,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    hJ = 
+      ExpList(
+        DecLit(0)
+        ArrayExp(
+          StrLit(),
+          ExpList(
+            StrLit()
+          )
+        )
+        ExpList(
+          StrLit()
+          StrLit(A)
+        )
+      ))
+  UnionDecl(
+  e8,
+    DeclList(
+      UnionMember(
+        Type(
+          Constant: false,
+          Base Type: void,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        x6
+      )
+      UnionMember(
+        Type(
+          Constant: false,
+          Base Type: int,
+          Pointer Stars: 0,
+          DeclList(
+            [
+              BinOp(
+                StrLit(),
+                *,
+                StrLit()
+              )
+            ]
+          )
+        ),
+        e
+      )
+    )
+  )
+)
+################################################################################
+typedef	int 			T;var	   			T* 			pV  ;fun 	T	l0	()break;struct 	C{	 int* 	  rl;}struct	b6I{	  		 	string g;   void*****[("")][""<""]		ao6; 	T	z42; 	string 	Q;}union 	P9{	T	J;		string[966] 	Uv;}
+
+./tests/test_11.g
+Starting Parser
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  VarDecl(
+    Type(
+      Constant: false,
+      Base Type: T,
+      Pointer Stars: 1,
+      Decllist()
+    ),
+    pV = 
+      Explist())
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: T,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    l0,
+    Decllist(),
+    BreakStmt()
+  )
+  StructDecl(
+    C,
+    DeclList(
+      StructMember(
+        Type(
+          Constant: false,
+          Base Type: int,
+          Pointer Stars: 1,
+          Decllist()
+        ),
+        rl
+      )
+    )
+  )
+  StructDecl(
+    b6I,
+    DeclList(
+      StructMember(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        g
+      )
+      StructMember(
+        Type(
+          Constant: false,
+          Base Type: void,
+          Pointer Stars: 5,
+          DeclList(
+            [
+              StrLit()
+            ]
+            [
+              BinOp(
+                StrLit(),
+                <,
+                StrLit()
+              )
+            ]
+          )
+        ),
+        ao6
+      )
+      StructMember(
+        Type(
+          Constant: false,
+          Base Type: T,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        z42
+      )
+      StructMember(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        Q
+      )
+    )
+  )
+  UnionDecl(
+  P9,
+    DeclList(
+      UnionMember(
+        Type(
+          Constant: false,
+          Base Type: T,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        J
+      )
+      UnionMember(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 0,
+          DeclList(
+            [
+              DecLit(966)
+            ]
+          )
+        ),
+        Uv
+      )
+    )
+  )
+)
+################################################################################
+typedef	int T;union	K{ 	 void	u;}
+
+./tests/test_89.g
+Starting Parser
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  UnionDecl(
+  K,
+    DeclList(
+      UnionMember(
+        Type(
+          Constant: false,
+          Base Type: void,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        u
+      )
+    )
+  )
+)
+################################################################################
+typedef	int	T;var 	  		 const				 		T****  y	 =Q+p&&0;
+
+./tests/test_99.g
+Starting Parser
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  VarDecl(
+    Type(
+      Constant: true,
+      Base Type: T,
+      Pointer Stars: 4,
+      Decllist()
+    ),
+    y = 
+      BinOp(
+        BinOp(
+          ID(Q),
+          +,
+          ID(p)
+        ),
+        &&,
+        DecLit(0)
+      ))
+)
+################################################################################
+typedef int	 T;var		  	T[""&&""]	m45 =(D());
+
+./tests/test_6.g
+Starting Parser
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  VarDecl(
+    Type(
+      Constant: false,
+      Base Type: T,
+      Pointer Stars: 0,
+      DeclList(
+        [
+          BinOp(
+            StrLit(),
+            &&,
+            StrLit()
+          )
+        ]
+      )
+    ),
+    m45 = 
+      FunExp(
+        ID(D),
+        Explist()
+      ))
+)
+################################################################################
+typedef   int  T;fun 			string****[][][]	K	( string 	O3TD)0||w55.W96&&"";var						string		e3	 	  ;var const 			 	T t6			 ="\xE\10z\26\x3";
+
+./tests/test_32.g
+Starting Parser
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: string,
+      Pointer Stars: 4,
+      DeclList(
+        [
+          EmptyExp()
+        ]
+        [
+          EmptyExp()
+        ]
+        [
+          EmptyExp()
+        ]
+      )
+    ),
+    K,
+    DeclList(
+      Parameter(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        O3TD
+      )
+    ),
+    ExprStmt(
+      BinOp(
+        BinOp(
+          DecLit(0),
+          ||,
+          BinOp(
+            ID(w55),
+            .,
+            ID(W96)
+          )
+        ),
+        &&,
+        StrLit()
+      )
+    )
+  )
+  VarDecl(
+    Type(
+      Constant: false,
+      Base Type: string,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    e3 = 
+      Explist())
+  VarDecl(
+    Type(
+      Constant: true,
+      Base Type: T,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    t6 = 
+      StrLit(z))
+)
+################################################################################
+typedef 	 	int	T;fun  	int	Vh ()break;struct 	e1{	string	 		J7oZ;}fun    	void[&""][0xf][""()][""()]	Qbh3		()return	{O,{""}};
+
+./tests/test_37.g
+Starting Parser
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    Vh,
+    Decllist(),
+    BreakStmt()
+  )
+  StructDecl(
+    e1,
+    DeclList(
+      StructMember(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        J7oZ
+      )
+    )
+  )
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: void,
+      Pointer Stars: 0,
+      DeclList(
+        [
+          UnaryExp(
+            StrLit(),
+            &
+          )
+        ]
+        [
+          DecLit(15)
+        ]
+        [
+          FunExp(
+            StrLit(),
+            Explist()
+          )
+        ]
+        [
+          FunExp(
+            StrLit(),
+            Explist()
+          )
+        ]
+      )
+    ),
+    Qbh3,
+    Decllist(),
+    Return(
+      ExpList(
+        ID(O)
+        ExpList(
+          StrLit()
+        )
+      )
+    )
+  )
+)
+################################################################################
+typedef int T;struct 	j{	string*	hT;	  	string[][][] a;}fun			 int  y2			(  void*****	  I33,		int*** f, string[""][""][""]	oj9L)if(0+0*0*0)""<p;
+
+./tests/test_80.g
+Starting Parser
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  StructDecl(
+    j,
+    DeclList(
+      StructMember(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 1,
+          Decllist()
+        ),
+        hT
+      )
+      StructMember(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 0,
+          DeclList(
+            [
+              EmptyExp()
+            ]
+            [
+              EmptyExp()
+            ]
+            [
+              EmptyExp()
+            ]
+          )
+        ),
+        a
+      )
+    )
+  )
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    y2,
+    DeclList(
+      Parameter(
+        Type(
+          Constant: false,
+          Base Type: void,
+          Pointer Stars: 5,
+          Decllist()
+        ),
+        I33
+      )
+      Parameter(
+        Type(
+          Constant: false,
+          Base Type: int,
+          Pointer Stars: 3,
+          Decllist()
+        ),
+        f
+      )
+      Parameter(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 0,
+          DeclList(
+            [
+              StrLit()
+            ]
+            [
+              StrLit()
+            ]
+            [
+              StrLit()
+            ]
+          )
+        ),
+        oj9L
+      )
+    ),
+    IfStmt(
+      Check: 
+        BinOp(
+          DecLit(0),
+          +,
+          BinOp(
+            BinOp(
+              DecLit(0),
+              *,
+              DecLit(0)
+            ),
+            *,
+            DecLit(0)
+          )
+        ),
+      Then: 
+        ExprStmt(
+          BinOp(
+            StrLit(),
+            <,
+            ID(p)
+          )
+        ),
+      Else: 
+        EmptyStmt()
+    )
+  )
+)
+################################################################################
+typedef			int  	T;fun 	void*[""||""][qZ3q][""][""->""][""<""] Ei ()return {"",DZDY,{""}};union 		Md{	string		B;	int*[""->""]	Eq;}
+
+./tests/test_10.g
+Starting Parser
+DeclList(
+  Typedef(
+    Type(
+      Constant: false,
+      Base Type: int,
+      Pointer Stars: 0,
+      Decllist()
+    ),
+    T
+  )
+  FunDecl(
+    Type(
+      Constant: false,
+      Base Type: void,
+      Pointer Stars: 1,
+      DeclList(
+        [
+          BinOp(
+            StrLit(),
+            ||,
+            StrLit()
+          )
+        ]
+        [
+          ID(qZ3q)
+        ]
+        [
+          StrLit()
+        ]
+        [
+          BinOp(
+            StrLit(),
+            ->,
+            StrLit()
+          )
+        ]
+        [
+          BinOp(
+            StrLit(),
+            <,
+            StrLit()
+          )
+        ]
+      )
+    ),
+    Ei,
+    Decllist(),
+    Return(
+      ExpList(
+        StrLit()
+        ID(DZDY)
+        ExpList(
+          StrLit()
+        )
+      )
+    )
+  )
+  UnionDecl(
+  Md,
+    DeclList(
+      UnionMember(
+        Type(
+          Constant: false,
+          Base Type: string,
+          Pointer Stars: 0,
+          Decllist()
+        ),
+        B
+      )
+      UnionMember(
+        Type(
+          Constant: false,
+          Base Type: int,
+          Pointer Stars: 1,
+          DeclList(
+            [
+              BinOp(
+                StrLit(),
+                ->,
+                StrLit()
+              )
+            ]
+          )
+        ),
+        Eq
+      )
+    )
+  )
+)
