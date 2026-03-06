@@ -281,6 +281,20 @@ public Absyn visitFunExp(gParser.FunExpContext ctx)
     return new FunExp(pos, func, args);
 }
 
+@Override
+public Absyn visitParameters(gParser.ParametersContext ctx) {
+    int pos = ctx.getStart().getLine();
+    DeclList paramsList = new DeclList(pos);
+    //Assume there is the same number of types and size
+    for (int i =0; i < ctx.type().size(); i++) {
+        Type type= (Type) visit(ctx.type(i));
+        String name = ctx.ID(i).getText();
+        Parameter param = new Parameter(pos, type, name);
+        paramsList.list.add(param);
+    }
+
+    return paramsList;
+}
 
 @Override
 public Absyn visitArrayExp(gParser.ArrayExpContext ctx) 
