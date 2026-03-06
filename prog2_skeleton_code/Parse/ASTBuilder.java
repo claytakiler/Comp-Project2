@@ -179,8 +179,21 @@ public Absyn visitStructOrUnionDecl(gParser.StructOrUnionDeclContext ctx) {
 //Types
 @Override
 public Absyn visitType(gParser.TypeContext ctx) {
-    return new Type(0, false, "", 0, new DeclList(0));
+    int pos = ctx.getStart().getLine();
+
+    boolean isConst = ctx.CONST() != null; //is constant?
+
+    String base = ctx.type_name().getText(); //get actual base type
+
+    int stars = ctx.STAR().size();// for pointers amount
+
+    DeclList arrays = ctx.brackets_list() == null //check if brackets? if not then add them and then go through and visit each arr element
+        ? new DeclList(pos)
+        : (DeclList) visit(ctx.brackets_list());
+
+    return new Type(pos, isConst, base, stars, arrays);//build
 }
+
 
 @Override
 public Absyn visitEmptyArrayBrackets(gParser.EmptyArrayBracketsContext ctx) {
@@ -194,35 +207,86 @@ public Absyn visitExprArrayBrackets(gParser.ExprArrayBracketsContext ctx) {
 
 // Initialization
 @Override
-public Absyn visitInitialization(gParser.InitializationContext ctx) {
-    return new EmptyExp(0);
+public Absyn visitInitialization(gParser.InitializationContext ctx) 
+{
+    
+    if (ctx.initializer() == null) // if no init then give empty_exp
+    {
+        return new EmptyExp(ctx.getStart().getLine());
+    }
+
+    return visit(ctx.initializer()); //else just ret
+
 }
 
 @Override
-public Absyn visitInitializer(gParser.InitializerContext ctx) {
-    return new EmptyExp(0);
+public Absyn visitInitializer(gParser.InitializerContext ctx) 
+{
+    int pos = ctx.getStart().getLine();
+    
+    if (ctx.expr() != null) //if init is single expr
+    {
+        return visit(ctx.expr());
+    }
+
+    return new EmptyExp(pos); //else just return empty
 }
 
-// Expression
+// Expressions 
 @Override
-public Absyn visitParenExp(gParser.ParenExpContext ctx) {
-    return new EmptyExp(0);
+public Absyn visitParenExp(gParser.ParenExpContext ctx) 
+{
+    return visit(ctx.expr()); //return the inner expression
+}
+
+
+@Override
+public Absyn visitBinOp(gParser.BinOpContext ctx) 
+{
+    int pos = ctx.getStart().getLine();
+
+    Exp left  = (Exp) visit(ctx.expr(0)); //left op
+    Exp right = (Exp) visit(ctx.expr(1)); //right op
+
+    String oper = ctx.op.getText(); //get text of operator token
+
+    return new BinOp(pos, left, oper, right); //build it
 }
 
 @Override
-public Absyn visitBinOp(gParser.BinOpContext ctx) {
-    return new EmptyExp(0);
+public Absyn visitFunExp(gParser.FunExpContext ctx) 
+{
+    int pos = ctx.getStart().getLine();
+
+    Exp func = (Exp) visit(ctx.expr(0));//call fn
+
+    ExpList args = new ExpList(pos);//list of args
+
+    for (int i = 1; i < ctx.expr().size(); i++) 
+    {
+        args.list.add((Exp) visit(ctx.expr(i)));//add and visit
+    }
+
+    return new FunExp(pos, func, args);
 }
 
-@Override
-public Absyn visitFunExp(gParser.FunExpContext ctx) {
-    return new EmptyExp(0);
-}
 
 @Override
-public Absyn visitArrayExp(gParser.ArrayExpContext ctx) {
-    return new EmptyExp(0);
+public Absyn visitArrayExp(gParser.ArrayExpContext ctx) 
+{
+    int pos = ctx.getStart().getLine();
+
+    Exp name = (Exp) visit(ctx.expr(0));//index arr
+
+    ExpList indices = new ExpList(pos);//list of index expr
+
+    for (int i = 1; i < ctx.expr().size(); i++) {
+        indices.list.add((Exp) visit(ctx.expr(i)));
+    }
+
+    return new ArrayExp(pos, name, indices);
 }
+
 
 @Override
 public Absyn visitUnaryExp(gParser.UnaryExpContext ctx) {
