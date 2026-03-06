@@ -287,32 +287,47 @@ public Absyn visitArrayExp(gParser.ArrayExpContext ctx)
     return new ArrayExp(pos, name, indices);
 }
 
-
+//Start Clayton
 @Override
 public Absyn visitUnaryExp(gParser.UnaryExpContext ctx) {
-    return new EmptyExp(0);
+    //Unary expression has one piece of data attached to it. Example: -x, !isTrue
+    int pos = ctx.getStart().getLine();
+    String prefix = ctx.getChild(0).getText();
+    //Visit expression thats left
+    Exp expr = (Exp) visit(ctx.expr());
+    return new UnaryExp(pos, prefix, expr);
 }
 
 @Override
 public Absyn visitAssignExp(gParser.AssignExpContext ctx) {
-    return new EmptyExp(0);
+    int pos = ctx.getStart().getLine();
+    Exp expr = (Exp) visit(ctx.expr());
+    Exp init =(Exp) visit(ctx.initializer());
+    return new AssignExp(pos, expr, init);
 }
 
 //End of My assignments
 
 @Override
 public Absyn visitDecLit(gParser.DecLitContext ctx) {
-    return new EmptyExp(0);
+    int pos = ctx.getStart().getLine();
+    String valueText = ctx.getChild(0).getText();
+    int value = Integer.parseInt(valueText);
+    return new DecLit(pos, value);
 }
 
 @Override
 public Absyn visitID(gParser.IDContext ctx) {
-    return new EmptyExp(0);
+    int pos = ctx.getStart().getLine();
+    String value = ctx.getChild(0).getText();
+    return new ID(pos, value);
 }
 
 @Override
 public Absyn visitStrLit(gParser.StrLitContext ctx) {
-    return new EmptyExp(0);
+    int pos = ctx.getStart().getLine();
+    String value = ctx.getChild(0).getText();
+    return new StrLit(pos, value);
 }
 
 }
