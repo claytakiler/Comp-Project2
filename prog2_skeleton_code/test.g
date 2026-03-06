@@ -1,5 +1,3 @@
-fun	 			string UC2 () {
-   var const int x = 0;
-   +C|x4<0();
+fun int main() {
+    foo[1 + 2 * 3]( (4 + 5) * (6 + 7) );
 }
-
