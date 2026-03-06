@@ -310,7 +310,10 @@ public Absyn visitAssignExp(gParser.AssignExpContext ctx) {
 
 @Override
 public Absyn visitDecLit(gParser.DecLitContext ctx) {
-    return new EmptyExp(0);
+    int pos = ctx.getStart().getLine();
+    String valueText = ctx.getChild(0).getText();
+    int value = Integer.parseInt(valueText);
+    return new DecLit(pos, value);
 }
 
 @Override
